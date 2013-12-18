@@ -1,0 +1,31 @@
+12 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+81---------------³
+01 TRANS(I_NH,'###')                                                          ³
+02 DEQUIEN                                                                    ³
+02 DTOC(DATE())                                                               ³
+06 DTOC(DESDE)                                                                ³
+06 DTOC(HASTA)                                                                ³
+13 FVECTOR(vbanco,X->CODBAN)                                                  ³
+13 DTOC(X->FECHEMI)                                                           ³
+13 X->NUMCHEQ                                                                 ³
+13 X->CONCEPTO                                                                ³
+13 DTOC(X->FECHCOB)                                                           ³
+13 STR(X->MONTO)                                                              ³
+14 TRANS(I_TOTAL,"@Z #######.##")                                             ³
+                                                                   HOJA N§ þ_º³
+þ_____________________º                                               þ______º³
+                                                                              ³
+                     #################################                        ³
+                     # LISTADO DE CHEQUES EN CARTERA #                        ³
+                     #  DESDE þ______º A þ______º    #                        ³
+                     #################################                        ³
+                                                                              ³
+============== ======== ============= ==================== ======== ==========³
+Banco          Fecha    N§ de Cheque  Concepto             Fecha    Monto     ³
+               Emisi¢n                                     Cobro              ³
+============= ======== ============= ==================== ======== ==========³
+þ____________º þ______º þ___________º þ__________________º þ______º þ________º³
+                                                     TOTAL .........þ________º³
+

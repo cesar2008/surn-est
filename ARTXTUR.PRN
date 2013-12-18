@@ -1,0 +1,32 @@
+13 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+72 Ancho---------³
+01 TRANS(I_NH,'###')                                                 ³
+02 DTOC(DATE())                                                      ³
+05 DTOC(dDESDE)                                                      ³
+05 cDturno                                                           ³
+06 DTOC(dHASTA)                                                      ³
+06 cHturno                                                           ³
+13 STR(X->CODPROD,6)                                                 ³
+13 FPROD(X->CODPROD)                                                 ³
+13 TRANS(X->CANTIDAD,'@Z #######.##')                                ³
+13 TRANS(X->IMPORTE, '@Z #######.##')                                ³
+13 TRANS(X->CANTIDADF,'@Z #######.##')                               ³
+14 TRANS(X->(LASTREC()),'#####')                                     ³
+14 TRANS(M->TOTAL,'@Z ########.##')                                  ³
+                                                          HOJA N§þ__º³
+                                                             þ______º³
+ð############################                                        ³
+ðVENTA DE PRODUCTOS POR TURNO                                        ³
+ð  desde þ______º turno þº                                           ³
+ð  hasta þ______º turno þº                                           ³
+ð############################                                        ³
+                                                                     ³
+==================================== ========== ========== ==========³
+PRODUCTOS                              Cantidad      Total   Cantidad³
+C¢digo Descripci¢n                        Total            fact/rem. ³
+===== ============================= ========== ========== ==========³
+þ____º þ___________________________º þ________º þ________º þ________º³
+SE LISTARON þ___º PRODUCTOS              TOTAL þ_________º           ³
+

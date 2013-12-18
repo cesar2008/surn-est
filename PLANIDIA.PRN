@@ -1,0 +1,29 @@
+09 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+60---------------³
+01 TRANS(I_NH,'###')                                     ³
+02 DTOC(DATE())                                          ³
+05 I_TITULO                                              ³
+06 DTOC(M->FECHA)                                        ³
+13 BP->TURNO                                             ³
+13 STR(BP->CANTIDAD)                                     ³
+13 STR(BP->CODPROD)                                      ³
+13 BP->DESCPROD                                          ³
+13 TRANS(BP->IMPORTE,"@Z #######.##")                    ³
+14 TRANS(M->TOTAL,"@Z #######.##")                       ³
+                                              HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"                          þ______º³
+                                                         ³
+                ###################                ³
+                # PLANILLA DIARIA #                ³
+                # FECHA  þ______º #                ³
+                ###################                ³
+                                                         ³
+==== ====== ===== ============================== =============³
+Tur. Cant.  C¢d.  Descripci¢n                    Importe      ³
+            prod.                                             ³
+=== ====== ===== ============================== =============³
+þ__º þ____º þ___º þ____________________________º þ___________º³
+     TOTAL =                                     þ___________º³
+

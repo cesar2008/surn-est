@@ -1,0 +1,40 @@
+file FF
+file FXH
+file EST4
+file PROD
+file BL
+file DIFAC
+file FALTAN
+file CER
+file SETIMP
+file REFAC
+file REST
+file SFAC
+file FNUM2
+file IMPRIMIR
+file HFISCAL
+file ZT
+file OEST
+file STA
+file CLI
+file CORR
+file CP
+file CAJCH
+file EMP
+
+file V
+file TB
+file ATB
+file CALC
+file EDI
+file EDI2
+file UDFS
+file ISPRINT
+file DEFAULT
+file CESAR
+file TXT
+
+lib llibce
+lib fiscal
+lib ftdir
+

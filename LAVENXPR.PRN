@@ -1,0 +1,29 @@
+10 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+62 Ancho---------³
+01 TRANS(I_NH,'###')                                       ³
+02 DEQUIEN                                                 ³
+02 DTOC(DATE())                                            ³
+06 DTOC(DESDE)                                             ³
+06 DTOC(HASTA)                                             ³
+13 STR(X->CODPROD,6)                                       ³
+13 FPROD(X->CODPROD)                                       ³
+13 STR(X->CANTIDAD)                                        ³
+13 TRANS(X->IMPORTE,"#####.##")                            ³
+14 TRANS(M->IMPORTE,"#####.##")                            ³
+                                                HOJA N§þ__º³
+þ______________________________º                   þ______º³
+                                                           ³
+ð#############################                             ³
+ðVENTAS  X  PRODUCTO  LAVADERO                             ³
+ðPERIODO  þ______º - þ______º                              ³
+ð#############################                             ³
+                                                           ³
+========================================= ======== ========³
+PRODUCTO                                  Cantidad    Total³
+C¢digo Descripci¢n                                         ³
+===== ================================== ======== ========³
+þ____º þ________________________________º þ______º þ______º³
+TOTAL :=                                           þ______º³
+

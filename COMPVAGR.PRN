@@ -1,0 +1,45 @@
+26 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+132 Ancho--------³
+01 TRANS(I_NH,'###')                                                                                                             ³
+02 DTOC(DATE())                                                                                                                  ³
+06 DTOC(DESDE)                                                                                                                   ³
+06 DTOC(HASTA)                                                                                                                   ³
+13 X->RAZONSOC                                                                                                                   ³
+13 X->CUIT                                                                                                                       ³
+13 X->CATIVA                                                                                                                     ³
+13 X->NUMFAC                                                                                                                     ³
+13 TRANS(X->NETO,      "#####.##")                                                                                               ³
+13 TRANS(X->CREDITO,   "#####.##")                                                                                               ³
+13 TRANS(X->EXENTO,    "#####.##")                                                                                               ³
+13 TRANS(X->IMPINT,    "#####.##")                                                                                               ³
+13 TRANS(X->TOTAL,     "#####.##")                                                                                               ³
+13 TRANS(X->PERCEPCION,"#####.##")                                                                                               ³
+13 TRANS(X->RETIB,     "#####.##")                                                                                               ³
+13 TRANS(X->RETGAN,    "#####.##")                                                                                               ³
+13 TRANS(X->RETIVA,    "#####.##")                                                                                               ³
+14 TRANS(nNETO,      "######.##")                                                                                                ³
+14 TRANS(nCREDITO,   "######.##")                                                                                                ³
+14 TRANS(nEXENTO,    "######.##")                                                                                                ³
+14 TRANS(nIMPINT,    "######.##")                                                                                                ³
+14 TRANS(nTOTAL,     "######.##")                                                                                                ³
+14 TRANS(nPERCEPCION,"######.##")                                                                                                ³
+14 TRANS(nRETIB,     "######.##")                                                                                                ³
+14 TRANS(nRETGAN,    "######.##")                                                                                                ³
+14 TRANS(nRETIVA,    "######.##")                                                                                                ³
+                                                                                                                      HOJA N§þ__º³
+ "ESTACION DE SERVICIO"                                                                                                  þ______º³
+                                                                                                                                 ³
+                                             ##########################                                                          ³
+                                             COMPRAS VARIAS X PROVEEDOR                                                          ³
+                                                þ______º - þ______º                                                              ³
+                                             ##########################                                                          ³
+                                                                                                                                 ³
+============= ============= === ================ ======== ======== ======== ======== ======== ======== ======== ======== ========³
+Proveedor     C.U.I.T       Cat N§ Factura       Neto     Crediro  Exento   Imp.Int. Total    Percep.  Ret.IB   Ret.GAN  Ret.IVA ³
+                                                                                                                                 ³
+============ ============= === ================ ======== ======== ======== ======== ======== ======== ======== ======== ========³
+þ___________º þ___________º þ_º þ______________º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º³
+                              Total             þ_______ºþ_______ºþ_______ºþ_______ºþ_______ºþ_______ºþ_______ºþ_______ºþ_______º³
+

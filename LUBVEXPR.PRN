@@ -1,0 +1,34 @@
+15 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+80 Ancho---------³
+01 TRANS(I_NH,'###')                                                         ³
+02 DEQUIEN                                                                   ³
+02 DTOC(DATE())                                                              ³
+06 DTOC(DESDE)                                                               ³
+06 DTOC(HASTA)                                                               ³
+13 STR(X->CODPROD,6)                                                         ³
+13 FPROD(X->CODPROD)                                                         ³
+13 STR(X->CANTXMOD)                                                          ³
+13 STR(X->CANTIDAD)                                                          ³
+13 STR(X->CANTOTAL)                                                          ³
+13 TRANS(X->IMPORTE,"#####.##")                                              ³
+14 TRANS(M->CANTXMOD,"#####.##")                                             ³
+14 TRANS(M->CANTIDAD,"#####.##")                                             ³
+14 TRANS(M->CANTOTAL,"#####.##")                                             ³
+14 TRANS(M->IMPORTE,"#####.##")                                              ³
+                                                                  HOJA N§þ__º³
+þ______________________________º                                     þ______º³
+                                                                             ³
+                        #############################                        ³
+                        VENTAS X PRODUCTO LUBRICENTRO                        ³
+                        PERIODO  þ______º - þ______º                         ³
+                        #############################                        ³
+                                                                             ³
+========================================= ======== ======== ======== ========³
+PRODUCTO                                  Cantidad Cantidad Cantidad    Total³
+C¢digo Descripci¢n                        x Modulo Agregada    Total         ³
+===== ================================== ======== ======== ======== ========³
+þ____º þ________________________________º þ______º þ______º þ______º þ______º³
+TOTAL :=                                  þ______º þ______º þ______º þ______º³
+

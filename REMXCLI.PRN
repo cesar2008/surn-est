@@ -1,0 +1,46 @@
+19 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+76 Ancho---------³
+01 TRANS(I_NH,'###')                                                     ³
+02 DTOC(DATE())                                                          ³
+05 RIGHT(XBASE,1)                                                        ³
+06 DTOC(DESDE)                                                           ³
+06 DTOC(HASTA)                                                           ³
+13 DTOC(&XBASE->FECHA)                                                   ³
+13 STRZERO(&XBASE->NUMFAC,6)                                             ³
+13 TRANS(M->TPRECBASE,"#####.##")                                        ³
+13 TRANS(M->TIMPINT,"#####.##")                                          ³
+13 TRANS(M->DESCUENTO,"#####.##")                                        ³
+13 TRANS(M->TIVA1,"#####.##")                                            ³
+13 TRANS(M->TIVA2,"#####.##")                                            ³
+13 TRANS(M->TOTAL,"#####.##")                                            ³
+14 TRANS(M->TTPRECBASE,"#####.##")                                       ³
+14 TRANS(M->TTIMPINT,"#####.##")                                         ³
+14 TRANS(M->TDESCUENTO,"#####.##")                                       ³
+14 TRANS(M->TTIVA1,"#####.##")                                           ³
+14 TRANS(M->TTIVA2,"#####.##")                                           ³
+14 TRANS(M->TTOTAL,"#####.##")                                           ³
+                                                              HOJA N§þ__º³
+ "ESTACION DE SERVICIO"                                          þ______º³
+                                                                         ³
+                      ############################                       ³
+                      LISTADO  DE  FACTURAS  þº                          ³
+                      PERIODO  þ______º - þ______º                       ³
+                      ############################                       ³
+                                                                         ³
+========== ======== == ======== ======== ======== ======== ========³
+Remito     Fecha    TU Total    Total    Total    Total    Total   ³
+                                Descuent I.V.A.   I.V.A.NI         ³
+========= ======== == ======== ======== ======== ======== ========³
+þ________º þ______º þº þ______º þ______º þ______º þ______º þ______º³
+Total =             þ______º þ______º þ______º þ______º þ______º þ______º³
+aCpo:={{ "TIPOREM"      ,"Tipo"                ,'', 'E',  '',  0, 0 },;
+	{ "NUMFAC"       ,"N§Remito"            ,'', 'E',  '',  0, 0 },;
+	{ "FECHA"        ,"Fecha"               ,'', 'M',  '',  0, 0 },;
+	{ "TURNO"        ,"T;u"                 ,'', 'M',  '',  0, 0 },;
+	{ "CODCLI"       ,"C¢d;cli"             ,'', 'M',  '',  0, 0 },;
+	{ "FCL(CODCLI) " ,"Cliente", REPLIC('X',20), "F", 'F', 20, 0 },;
+	{ "TOTAL"        ,"Total"               ,'', 'E',  '',  0, 0 },;
+	{ "FECHCIERRE"   ,"Fecha;cierre",       ,'', 'M',  '',  0, 0 }}
+

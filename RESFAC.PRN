@@ -1,0 +1,30 @@
+10 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+76---------------³
+01 TRANS(I_NH,'###')                                                     ³
+02 DTOC(DATE())                                                          ³
+07 DTOC(DESDE)                                                           ³
+07 DTOC(HASTA)                                                           ³
+14 aaux[z,XX_DESCGRUPO]                                                  ³
+14 TRANS(aaux[z,XX_CANTIDAD],"@Z ######.#")                              ³
+14 TRANS(aaux[z,XX_NETO]  ,"@Z #######.##")                              ³
+14 TRANS(aaux[z,XX_IMPINT],"@Z #######.##")                              ³
+14 TRANS(aaux[z,XX_IVA]   ,"@Z #######.##")                              ³
+14 TRANS(aaux[z,XX_TOTAL] ,"@Z #######.##")                              ³
+                                                              HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"                                          þ______º³
+                                                                         ³
+                            #######################                      ³
+                            # RESUMEN DE FACTURAS #                      ³
+                            #     Y PLANILLAS     #                      ³
+                            # þ______º - þ_______º#                      ³
+                            #######################                      ³
+                                                                         ³
+==================== ======== ========== ========== ========== ==========³
+Descripci¢n          Cantidad Neto       Impuesto   I.V.A.     Total     ³
+                                         interno                         ³
+=================== ======== ========== ========== ========== ==========³
+þ__________________º þ______º þ________º þ________º þ________º þ________º³
+TOTAL =                       þ________º þ________º þ________º þ________º³
+

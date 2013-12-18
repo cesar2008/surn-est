@@ -1,0 +1,29 @@
+10 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+66---------------³
+01 TRANS(I_NH,'###')                                           ³
+02 DTOC(DATE())                                                ³
+06 DTOC(DESDE)                                                 ³
+06 DTOC(HASTA)                                                 ³
+13 DTOC(CH->FECHPAGO)                                          ³
+13 CH->NUMCHEQUE                                               ³
+13 CH->CONCEPTO                                                ³
+13 DTOC(CH->FECHA)                                             ³
+13 STR(CH->MONTO)                                              ³
+14 TRANS(I_TOTAL,"@Z #######.##")                              ³
+                                                    HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"                                þ______º³
+                                                               ³
+              ###############################                  ³
+              # LISTADO DE CHEQUES A COBRAR #                  ³
+              #  DESDE þ______º A þ______º  #                  ³
+              ###############################                  ³
+                                                               ³
+======== ============= ==================== ======== ==========³
+Fecha    N§ de Cheque  Cheque de            Fecha    Monto     ³
+de pago                                     Cobro              ³
+======= ============= ==================== ======== ==========³
+þ______º þ___________º þ__________________º þ______º þ________º³
+                                      TOTAL .........þ________º³
+

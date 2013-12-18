@@ -1,0 +1,27 @@
+08 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+52---------------³
+01 TRANS(I_NH,'###')                             ³
+02 DTOC(DATE())                                  ³
+13 DTOC(X->FECHPRES)                             ³
+13 DTOC(X->FECHA)                                ³
+13 STR(X->NUMERO)                                ³
+13 DTOC(X->FECHVENC)                             ³
+13 STR(X->MONTO)                                 ³
+14 TRANS(I_TOTAL,"@Z #######.##")                ³
+                                      HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"                  þ______º³
+                                                 ³
+             #########################           ³
+             #   LISTADO DE COPRES   #           ³
+             # BANCO PROVINCIA Bs.As.#           ³
+             #########################           ³
+                                                 ³
+======== ======== =========== ======== ==========³
+Fecha    Fecha    N§ de       Fecha    Monto     ³
+Present. de pago  Copres      Vencim.            ³
+======= ======== =========== ======== ==========³
+þ______º þ______º þ_________º þ______º þ________º³
+                        TOTAL .........þ________º³
+

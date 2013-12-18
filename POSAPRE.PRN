@@ -1,0 +1,29 @@
+09 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+46---------------³
+01 TRANS(I_NH,'###')                       ³
+02 DTOC(DATE())                            ³
+13 DTOC(X->FECHPAGO)                       ³
+13 DTOC(X->FECHPRES)                       ³
+13 STR(X->MONTO)                           ³
+14 TRANS(aaux[1],"@Z ###")                 ³
+14 TRANS(aaux[2],"@Z #######.##")          ³
+15 TRANS(I_CANT,"@Z ###")                  ³
+15 TRANS(I_TOTAL,"@Z #######.##")          ³
+                                HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"            þ______º³
+                                           ³
+          #######################          ³
+          # LISTADO DE POSNET   #          ³
+          #    A PRESENTAR      #          ³
+          #######################          ³
+                                           ³
+======== ============= ======== ========== ³
+Fecha    N§ de Tarjeta Fecha    Monto      ³
+de pago                Present.            ³
+======= ============= ======== ========== ³
+þ______º               þ______º þ________º ³
+                         ( þ_º )þ________º ³
+( þ_º )          TOTAL .........þ________º ³
+

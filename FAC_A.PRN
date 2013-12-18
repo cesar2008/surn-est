@@ -1,0 +1,57 @@
+19 Cant.Macros.  ³
+23 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+83---------------³
+03 STRZERO(XF->NUMFAC,8)
+05 DTOC(XF->FECHA)
+10 cCLIENTE
+11 ALLTRIM(cDOMCOM)+" "+FVECTOR(vlocalid,nCODLOC)
+13 FARRAY(acativa,cCATIVA)
+14 cCUIT
+14 IF(nCONDVENTA==1,"CONTADO","CTA.CTE")
+14 STR(AXR[y,RG_CANTIDAD],4)
+14 AXR[y,RG_DESCPROD]
+14 TRANS(AXR[y,RG_PRECBASE], '#######.##')
+14 TRANS(AXR[y,RG_TPRECBASE],'#######.##')
+14 TRANS(AXR[y,RG_IMPORTE],  '#######.##')
+28 TRANS(M->DESCUENTO,'#######.##')
+28 TRANS(M->SUBTOTAL, '#######.##')
+28 TRANS(M->TIMPINT,  '#######.##')
+28 TRANS(M->TIVA1,    '#######.##')
+28 TRANS(M->TIVA2,    '#######.##')
+28 TRANS(M->TOTAL,    '#######.##')
+1
+2
+3                                                        þ________º
+4
+5                                                      þ_______º
+6
+7
+8
+9
+10    þ_______________________________________º
+11    þ_____________________________________________________º
+12
+13  þ_________º                             þ___________º
+14             þ_____________º
+15
+þ___º  þ_____________________________º þ________º þ________º þ________º
+17
+18nt.  Descripci¢n                     Precio     Subtotal   Importe
+19                                     Unitario
+20===  =============================== ========== ========== ==========
+21
+22
+23
+24
+25
+26
+27
+28
+þ________º      þ________º     þ________º   þ________º    þ________º  þ________º
+30
+31
+32
+33
+34
+

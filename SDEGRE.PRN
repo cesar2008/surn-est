@@ -1,0 +1,33 @@
+13 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+67 Ancho---------³
+01 TRANS(I_NH,'###')                                            ³
+02 DTOC(DATE())                                                 ³
+06 DTOC(DESDE)                                                  ³
+06 DTOC(HASTA)                                                  ³
+13 DTOC(CHE->FECHEMI)                                           ³
+13 CHE->NUMCHEQ                                                 ³
+13 FBAN(CHE->CODBAN)                                            ³
+13 CHE->CONCEPTO                                                ³
+13 TRANS(CHE->MONTO, '#######.##')                              ³
+14 DTOC(OPG->FECHA)                                             ³
+14 FPROV(OPG->CODPROV)                                          ³
+14 TRANS(OPG->EFECTIVO, '#######.##')                           ³
+15 TRANS(M->TOTAL     , '#######.##')                           ³
+                                                     HOJA N§þ__º³
+                                                  FECHA þ______º³
+                                                                ³
+ð#####################                                          ³
+ðSUB-DIARIO DE EGRESOS                                          ³
+ðþ______º - þ______º                                            ³
+ð#####################                                          ³
+                                                                ³
+======== ========== ============== ================== ==========³
+Fech/Emi N§ Cheque  Banco          Proveedor          Importe   ³
+Pago                                                            ³
+======= ========== ============== ================== ==========³
+þ______º þ________º þ____________º þ________________º þ________º³
+þ______º                           þ________________º þ________º³
+TOTAL                                                 þ________º³
+

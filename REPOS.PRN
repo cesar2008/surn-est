@@ -1,0 +1,28 @@
+10 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+100--------------³
+01 TRANS(I_NH,'###')                                                                             ³
+02 DTOC(DATE())                                                                                  ³
+12 STR(PRD->CODPROD)                                                                             ³
+12 PRD->DESCPROD                                                                                 ³
+12 TRANS(PRD->STOCKMAX-PRD->STOCKACT+PRD->DEPOSITO,'@Z ########.###')                            ³
+12 TRANS(PRD->STOCKACT ,'@Z ########.###')                                                       ³
+12 TRANS(PRD->STOCKMAX,'@Z ########.###')                                                        ³
+12 TRANS(PRD->STOCKMIN,'@Z ########.###')                                                        ³
+12 TRANS(PRD->DEPOSITO,'@Z ########.###')                                                        ³
+13 TRANS(I_cantidad,'@Z #######.####')                                                           ³
+                                                                                     HOJA N§ þ_º ³
+ "ESTACION DE SERVICIO"                                                                 þ______º ³
+                                                                                                 ³
+                                    #######################                                      ³
+                                    # REPOSICION DE STOCK #                                      ³
+                                    #######################                                      ³
+                                                                                                 ³
+====== ========================= ============ ============ ============ ============ ============³
+C¢digo Descripci¢n                    REPONER        Stock        Stock        Stock     Dep¢sito³
+                                                    Exist.       M ximo       Minimo             ³
+===== ========================= ============ ============ ============ ============ ============³
+þ____º þ_______________________º þ__________º þ__________º þ__________º þ__________º þ__________º³
+TOTAL A REPONER :=              þ___________º                                                    ³
+

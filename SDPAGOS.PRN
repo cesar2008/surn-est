@@ -1,0 +1,34 @@
+12 Cant.Macros.  ³
+17 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+67 Ancho---------³
+01 TRANS(I_NH,'###')                                            ³
+02 DTOC(DATE())                                                 ³
+06 DTOC(DESDE)                                                  ³
+06 DTOC(HASTA)                                                  ³
+13 PRV->PROVEEDOR                                               ³
+14 TRANS(M->EFECTIVO,'@Z #########.##')                         ³
+15 TRANS(M->CHEQTER ,'@Z #########.##')                         ³
+16 justif("cheques emitidos para "+nomes[nMES],35,">")          ³
+16 TRANS(ache[nMES], '@Z #########.##')                         ³
+17 TRANS(M->TOTAL,   '@Z #########.##')                         ³
+17 TRANS(M->TOTALPAG,'@Z #########.##')                         ³
+17 TRANS(M->TOTAL-M->TOTALPAG,'@Z #########.##')                ³
+                                                     HOJA N§þ__º³
+                                                  FECHA þ______º³
+                                                                ³
+                      ###################                       ³
+                      SUB-DIARIO DE PAGOS                       ³
+                      þ______º - þ______º                       ³
+                      ###################                       ³
+                                                                ³
+========================= ============ ============ ============³
+Proveedor                        Total        Pagos   Diferencia³
+                             Facturado                          ³
+======================== ============ ============ ============³
+þ_______________________º                                       ³
+                              EFECTIVO þ__________º             ³
+                       CHEQUES TERCERO þ__________º             ³
+ þ___________________________________º þ__________º             ³
+        TOTAL  . . . . . .þ__________º þ__________º þ__________º³
+

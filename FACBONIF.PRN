@@ -1,0 +1,29 @@
+10 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+66 Ancho---------³
+01 TRANS(I_NH,'###')                                           ³
+02 DTOC(DATE())                                                ³
+06 DTOC(DESDE)                                                 ³
+06 DTOC(HASTA)                                                 ³
+13 str(X->CODPROD)                                             ³
+13 FPROD(X->CODPROD)                                           ³
+13 STR(X->CANTIDAD)                                            ³
+13 STR(X->IMPORTE)                                             ³
+14 TRANS(M->CANTIDAD,"#######.##")                             ³
+14 TRANS(M->IMPORTE, "#######.##")                             ³
+                                                    HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"                                þ______º³
+                                                               ³
+ð####################                                          ³
+ðFACTURADO BONIFICADO                                          ³
+ðþ______º - þ______º                                           ³
+ð####################                                          ³
+                                                               ³
+======== ================================ ========== ==========³
+C¢digo   Producto                           Cantidad    Importe³
+Producto                                                       ³
+======= ================================ ========== ==========³
+þ______º þ______________________________º þ________º þ________º³
+Total =                                   þ________º þ________º³
+

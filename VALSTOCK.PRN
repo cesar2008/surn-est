@@ -1,0 +1,33 @@
+15 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+99 --------------³
+01 TRANS(I_NH,'###')                                                                            ³
+02 DTOC(DATE())                                                                                 ³
+05 DTOC(HASTA)                                                                                  ³
+12 STR(X->CODPROD)                                                                              ³
+12 X->DESCPROD                                                                                  ³
+12 DTOC(X->FECHA)                                                                               ³
+12 TRANS(X->STOCKINI,'@Z #######.##')                                                           ³
+12 TRANS(X->STOCKACT,'@Z #######.##')                                                           ³
+12 TRANS(X->PRECCOMPRA*X->STOCKACT,'@Z #######.##')                                             ³
+12 TRANS(X->IMPINT*X->STOCKACT,'@Z #######.##')                                                 ³
+12 TRANS((X->PRECCOMPRA+X->IMPINT)*X->STOCKACT,'@Z #######.##')                                 ³
+13 TRANS(nCANTIDAD,'9999')                                                                      ³
+13 TRANS(nTPRECCOMPRA,'@Z ########.##')                                                         ³
+13 TRANS(nTIMPINT,'@Z ########.##')                                                             ³
+13 TRANS(nTPRECCOMPRA+nTIMPINT,'@Z ########.##')                                                ³
+                                                                                     HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"                                                                 þ______º³
+                                                                                                ³
+ð#######################################                                                        ³
+ð# EXISTENCIAS VALORIZADAS AL þ______º #                                                        ³
+ð#######################################                                                        ³
+                                                                                                ³
+====== ========================= ======== ========== ========== ========== ========== ==========³
+C¢digo Descripci¢n                  Fecha      Stock      Stock       Neto   Impuesto      Costo³
+                                  Stk.Ini    Inicial                Compra    Interno    sin IVA³
+===== ========================= ======== ========== ========== ========== ========== ==========³
+þ____º þ_______________________º þ______º þ________º þ________º þ________º þ________º þ________º³
+SE LISTARON þ__º PRODUCTOS                                     þ_________ºþ_________ºþ_________º³
+

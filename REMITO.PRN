@@ -1,0 +1,42 @@
+15 Cant.Macros.  ³
+22 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+83---------------³
+01 CHR(27)+"x"+CHR(0)                                                           ³
+02 "X"                                                                          ³
+04 STRZERO(nNUMERO,8)                                                           ³
+06 DTOC(dFECHA)                                                                 ³
+11 cCLIENTE                                                                     ³
+12 cDOMCOM                                                                      ³
+12 FVECTOR(vlocalid,nCODLOC)                                                    ³
+14 FARRAY(acativa,cCATIVA)                                                      ³
+14 cCUIT                                                                        ³
+19 TRANS(AXR[I_L,RG_CANTIDAD],"@Z #####.##")                                    ³
+19 AXR[I_L,RG_DESCPROD]                                                         ³
+19 TRANS(AXR[I_L,RG_PRECUNIT],"@Z ######.###")                                  ³
+19 TRANS(AXR[I_L,RG_IMPORTE],"@Z #######.##")                                   ³
+21 TRANS(M->TOTAL,"@Z #######.##")                                              ³
+22 TRANS(M->TOTAL+M->TDESCUENTO,"@Z #######.##")                                ³
+þ___º                                                                           ³
+ ESTACION DE SERVICIO            ( þº )            REMITO                       ³
+      Y.P.F.                                                                    ³
+   D.O.C. S.A.                                N§0000-þ______º                   ³
+Diag.73 N§16 Esquina 72 La Plata                                                ³
+                                                     Fecha,þ______º             ³
+DOCUMENTO NO VALIDO                           CUIT:30-67794582-2                ³
+  COMO FACTURA                                ING.BRUTOS 30BPP677945820"        ³
+                                              I.V.A.: Responsable Inscripto     ³
+--------------------------------------------------------------------------------³
+Se¤or þ_______________________________________º                                 ³
+Domicilio þ___________________________________º Localidad þ____________________º³
+--------------------------------------------------------------------------------³
+I.V.A.:þ__________________________º                   C.U.I.T.:þ___________º    ³
+Condici¢n de Venta: CTA.CTE.                                                    ³
+================================================================================³
+    Cantidad   |            Descripci¢n           |  Prec.Unit.  |  Importe     ³
+==============|==================================|==============|==============³
+   þ________º  |  þ____________________________º  |  þ________º  |  þ________º  ³
+......................... ....................                    ------------  ³
+  FIRMA Y ACLARACION         DOCUMENTO             TOTAL C/DESC     þ________º  ³
+                                                   TOTAL            þ________º  ³
+

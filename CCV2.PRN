@@ -1,0 +1,39 @@
+16 Cant.Macros.  ³
+18 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+78 Ancho---------³
+01 TRANS(I_NH,'###')                                                       ³
+02 DEQUIEN                                                                 ³
+02 DTOC(DATE())                                                            ³
+08 DTOC(DESDE)                                                             ³
+08 DTOC(HASTA)                                                             ³
+13 DTOC(CCV->FECHA)                                                        ³
+13 CCV->NUMCOB                                                             ³
+13 TRANS(CCV->APAGAR,'@Z #######.##')                                      ³
+13 TRANS(CCV->PAGADO,'@Z #######.##')                                      ³
+13 TRANS(CCV->SALDO, '@Z #######.##')                                      ³
+17 CCV2->NUMREC                                                            ³
+17 dtoc(CCV2->FECHA)                                                       ³
+17 TRANS(CCV2->EFECTIVO, '@Z #######.##')                                  ³
+17 TRANS(CCV2->CHEQUE,   '@Z #######.##')                                  ³
+17 TRANS(CCV2->TARJETA,  '@Z #######.##')                                  ³
+18 aremito[I_z]                                                            ³
+                                                                HOJA N§þ__º³
+þ________________º                                   Fecha emisi¢n þ______º³
+                                                                           ³
+ð##################                                                        ³
+ðDETALLE DE  COBROS                                                        ³
+ðCUENTAS CORRIENTES                                                        ³
+ð##################                                                        ³
+Periodo þ______º - þ______º                                                ³
+    ======== ======== ========== ========== ==========                     ³
+    N§ Cobro Fecha       A pagar     Pagado      Saldo                     ³
+                                                                           ³
+    ======= ======== ========== ========== ==========                     ³
+    þ______º þ______º þ________º þ________º þ________º                     ³
+                         Recibos de cobro                                  ³
+                         N§ Recib Fecha      Efectivo     Cheque    Tarjeta³
+                         ======== ======== ========== ========== ==========³
+                         þ______º þ______º þ________º þ________º þ________º³
+                         þ________________________________________________º³
+

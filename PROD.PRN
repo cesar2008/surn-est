@@ -1,0 +1,28 @@
+10 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+91---------------³
+01 TRANS(I_NH,'###')                                                                    ³
+02 DTOC(DATE())                                                                         ³
+12 STR(PRD->CODPROD)                                                                    ³
+12 PRD->DESCPROD                                                                        ³
+12 TRANS(PRD->PRECBASE,'@Z ######.###')                                                 ³
+12 TRANS(PRD->IMPINT,'@Z ####.###')                                                     ³
+12 TRANS(PRD->PRECVENTA,'@Z ######.###')                                                ³
+12 TRANS(PRD->STOCKMAX,'@Z #####.#')                                                    ³
+12 TRANS(PRD->STOCKMIN,'@Z #####.#')                                                    ³
+12 TRANS(PRD->STOCKACT  ,'@Z #####.#')                                                  ³
+                                                                            HOJA N§ þ_º ³
+ "ESTACION DE SERVICIO"                                                        þ______º ³
+                                                                                        ³
+                               ########################                                 ³
+                               # LISTADO DE PRODUCTOS #                                 ³
+                               ########################                                 ³
+                                                                                        ³
+====== ========================= ========== ======== ========== ======= ======= ========³
+C¢digo Descripci¢n               Precio     Impuesto Precio     Stock   Stock   Stock   ³
+                                 Base Venta Interno  Unitario   M ximo  Minimo  Actual  ³
+===== ========================= ========== ======== ========== ======= ======= ========³
+þ____º þ_______________________º þ________º þ______º þ________º þ_____º þ_____º þ______º³
+SE LISTARON þ__º ARTICULOS      þ_________ºþ_______ºþ_________ºþ______ºþ______ºþ_______º³
+

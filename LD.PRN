@@ -1,0 +1,33 @@
+17 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+100 Ancho--------³
+01 TRANS(I_NH,'###')
+02 DTOC(DATE())
+06 DTOC(DESDE)
+13 STRZERO(CC->(RECNO()),6)
+13 CC->TIPOFAC +" "+ STRZERO(CC->NUMFAC,6,0)
+13 DTOC(CC->FECHA)
+13 TRANS(CC->TOTAL,'######.###')
+13 DTOC(apagos1[1])
+13 TRANS(apagos2[1],'######.###')
+13 TRANS(apagos3[1],'######.###')
+13 TRANS(apagos4[1],'######.###')
+13 TRANS(saldoaux,'######.###')
+14 DTOC(apagos1[I_i])
+14 TRANS(apagos2[I_i],'######.###')
+14 TRANS(apagos3[I_i],'######.###')
+14 TRANS(apagos4[I_i],'######.###')
+14 TRANS(saldoaux,'######.###')
+                                                                    HOJA N§þ__º³
+ ESTACION DE SERVICIO                                    Fecha emisi¢n þ______º³
+
+                              ############
+                              LIBRO DIARIO
+                              ############
+
+========================================================= ========== ==========
+DETALLE                                                         DEBE      HABER
+======================================================== ========== ==========
+þ_______________________________________________________º þ________º þ________º
+

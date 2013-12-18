@@ -1,0 +1,41 @@
+22 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+117 Ancho--------³
+01 TRANS(I_NH,'###')                                                                                              ³
+02 DEQUIEN                                                                                                        ³
+02 DTOC(DATE())                                                                                                   ³
+06 DTOC(DESDE)                                                                                                    ³
+06 DTOC(HASTA)                                                                                                    ³
+13 DTOC(LU->FECHA)                                                                                                ³
+13 LU->TURNO                                                                                                      ³
+13 str(LU->NUMPARTE)                                                                                              ³
+13 LU->MARCA                                                                                                      ³
+13 LU->PATENTE                                                                                                    ³
+13 str(LU->KM)                                                                                                    ³
+13 dtoc(LU->FECH_NAC)                                                                                             ³
+13 FMODU(LU->CODMOD)                                                                                              ³
+13 str(LU->CANTIDAD)                                                                                              ³
+13 TRANS(LU->PRECXMOD,  "#####.##")                                                                               ³
+13 TRANS(LU->TMODULO,   "#####.##")                                                                               ³
+13 TRANS(LU->TOTAL  ,   "#####.##")                                                                               ³
+13 TRANS(LU->TMODULO+LU->TOTAL,"#####.##")                                                                        ³
+14 TRANS(M->CANTIDAD,  "#####")                                                                                   ³
+14 TRANS(M->TMODULO,   "######.##")                                                                               ³
+14 TRANS(M->TOTAL  ,   "######.##")                                                                               ³
+14 TRANS(M->TMODULO+M->TOTAL,"######.##")                                                                         ³
+                                                                                                       HOJA N§þ__º³
+ þ________________________º                                                                               þ______º³
+                                                                                                                  ³
+                                               ###################                                                ³
+                                               VENTAS LUBRICENTRO                                                 ³
+                                               þ______º - þ______º                                                ³
+                                               ###################                                                ³
+                                                                                                                  ³
+======== == ===== ========== ======== ====== ======== =================== ==== ======== ======== ======== ========³
+Fecha    Tu N§    Marca      Patente      KM Fecha    M¢dulo              Cant   Precio    Total    Total    TOTAL³
+            Parte                            Nacim.                            x M¢dulo  M¢dulos Agregado         ³
+======= == ===== ========== ======== ====== ======== =================== ==== ======== ======== ======== ========³
+þ______º þº þ___º þ________º þ______º þ____º þ______º þ_________________º þ__º þ______º þ______º þ______º þ______º³
+                                                                 Total   þ___º         þ_______ºþ_______ºþ_______º³
+

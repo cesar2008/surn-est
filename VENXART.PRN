@@ -1,0 +1,31 @@
+12 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+86 Ancho---------³
+01 TRANS(I_NH,'###')                                                               ³
+02 DTOC(DATE())                                                                    ³
+06 DTOC(DESDE)                                                                     ³
+06 DTOC(HASTA)                                                                     ³
+13 STR(X->CODPROD,6)                                                               ³
+13 X->DESCPROD                                                                     ³
+13 TRANS(X->VENTAS  ,'@Z #######')                                                 ³
+13 TRANS(X->FACTURAS,'@Z #######')                                                 ³
+13 TRANS(X->AJUSTES ,'@Z #######')                                                 ³
+13 TRANS(M->IMPORTE,"#######.##")                                                  ³
+13 TRANS(X->VENTAS+X->FACTURAS+X->AJUSTES,'@Z #######')                            ³
+14 TRANS(X->(LASTREC()),'@Z #######')                                              ³
+                                                                        HOJA N§þ__º³
+                                                                           þ______º³
+                                                                                   ³
+                         ##############################                            ³
+                         RESUMEN DE VENTAS POR ARTICULO                            ³
+                          PERIODO  þ______º - þ______º                             ³
+                         ##############################                            ³
+                                                                                   ³
+==================================== ======== ======== ======== ========== ========³
+ARTICULOS                            Ventas x Ventas x  Ajustes    Compras    Total³
+C¢digo Descripci¢n                   Tickets  Facturas                             ³
+===== ============================= ======== ======== ======== ========== ========³
+þ____º þ___________________________º þ______º þ______º þ______º þ________º þ______º³
+                         SE LISTARON þ___º ARTICULOS                               ³
+

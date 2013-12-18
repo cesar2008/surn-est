@@ -1,0 +1,30 @@
+11 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+67 Ancho---------³
+01 TRANS(I_NH,'###')                                            ³
+02 DTOC(DATE())                                                 ³
+06 DTOC(DESDE)                                                  ³
+06 DTOC(HASTA)                                                  ³
+13 DTOC(FECHA)                                                  ³
+13 STR(X->CODCLI)                                               ³
+13 FCLIENTE(X->CODCLI)                                          ³
+13 STR(X->CANTIDAD)                                             ³
+13 STR(X->IMPORTE)                                              ³
+14 STR(nCANTIDAD,11,3)                                          ³
+14 STR(nIMPORTE,10,2)                                           ³
+                                                     HOJA N§þ__º³
+ "ESTACION DE SERVICIO"                                 þ______º³
+                                                                ³
+ð#################                                              ³
+ðVENTA MAYORISTA                                                ³
+ðþ______º þ______º                                              ³
+ð#################                                              ³
+                                                                ³
+======== ================================ =========== ==========³
+Fecha    Cliente                             Cantidad    Importe³
+         C¢d.                                                   ³
+======= ==== =========================== =========== ==========³
+þ______º þ__º þ_________________________º þ_________º þ________º³
+                 Total                    þ_________º þ________º³
+

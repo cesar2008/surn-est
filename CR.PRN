@@ -1,0 +1,34 @@
+15 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+100Ancho---------³
+01 TRANS(I_NH,'###')                                                                             ³
+02 DTOC(DATE())                                                                                  ³
+06 DTOC(DESDE)                                                                                   ³
+06 DTOC(HASTA)                                                                                   ³
+13 DTOC(CR->FECHA)                                                                               ³
+13 CR->RAZONSOC                                                                                  ³
+13 CR->CUIT                                                                                      ³
+13 CR->CATIVA                                                                                    ³
+13 CR->NUMFAC                                                                                    ³
+13 TRANS(CR->RETIVA,    "#####.##")                                                              ³
+13 TRANS(CR->RETIB,     "#####.##")                                                              ³
+13 TRANS(CR->RETGAN,    "#####.##")                                                              ³
+14 TRANS(nRETIVA,    "######.##")                                                                ³
+14 TRANS(nRETIB,     "######.##")                                                                ³
+14 TRANS(nRETGAN,    "######.##")                                                                ³
+                                                                                      HOJA N§þ__º³
+ "ESTACION DE SERVICIO"                                                                  þ______º³
+                                                                                                 ³
+ð#########################                                                                       ³
+ðCOMPROBANTES DE RETENCION                                                                       ³
+ð   þ______º - þ______º                                                                          ³
+ð#########################                                                                       ³
+                                                                                                 ³
+======== ========================== ============= === ================ ======== ======== ========³
+Fecha    Raz¢n Social               C.U.I.T       Cat N§ Factura       Ret.IVA  Ret.IB   Ret.GAN ³
+                                                                                                 ³
+======= ========================== ============= === ================ ======== ======== ========³
+þ______º þ________________________º þ___________º þ_º þ______________º þ______º þ______º þ______º³
+                                                    Total             þ_______ºþ_______ºþ_______º³
+

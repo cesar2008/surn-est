@@ -1,0 +1,27 @@
+ 8 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+55 Ancho---------³
+01 TRANS(I_NH,'###')                                ³
+02 DTOC(DATE())                                     ³
+06 DTOC(DESDE)                                      ³
+06 DTOC(HASTA)                                      ³
+13 X->CODPLAN                                       ³
+13 PC(X->CODPLAN)                                   ³
+13 TRANS(X->IMPORTE, "@Z #######.##")               ³
+14 TRANS(M->IMPORTE,"@Z ########.##")               ³
+                                         HOJA N§þ__º³
+                              Fecha emisi¢n þ______º³
+                                                    ³
+ð#############################                      ³
+ðCOMPRAS X PLAN DE CUENTA                           ³
+ðDESDE þ______º HASTA þ______º                      ³
+ð#############################                      ³
+                                                    ³
+========== ============================== ==========³
+C¢digo     Descripci¢n                       Importe³
+                                                    ³
+========= ============================== ==========³
+þ________º þ____________________________º þ________º³
+TOTAL                                    þ_________º³
+

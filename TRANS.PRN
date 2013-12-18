@@ -1,0 +1,27 @@
+10 Cant.Macros.  ³
+12 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+86---------------³
+01 TRANS(I_NH,'###')                                                               ³
+02 DTOC(DATE())                                                                    ³
+11 STR(X->CODPROD)                                                                 ³
+11 X->DESCPROD                                                                     ³
+11 X->DESCPROD                                                                     ³
+11 STR(X->UNXCAJA)                                                                 ³
+11 STR(X->STOCKACT,8)                                                              ³
+11 STR(X->STOCKACT/X->UNXCAJA,6)                                                   ³
+11 TRANS(X->PRECIO, '@Z ######.##')                                                ³
+12 STR(XCANT,4)                                                                    ³
+                                                                        HOJA N§ þ_º³
+                                                                           þ______º³
+                            ########################                               ³
+                            # ALTAS,MODIF. Y BAJAS #                               ³
+                            ########################                               ³
+                                                                                   ³
+====== ============================== ============ ====== =============== =========³
+C¢digo Descripci¢n                    Descripci¢n  Unid.       STOCK      Precio   ³
+                                                   x bul. unidades bultos Final    ³
+===== ============================== ============ ====== ======== ====== =========³
+þ____º þ____________________________º þ__________º þ____º þ______º þ____º þ_______º³
+                 CANTIDAD þ__º ARTICULOS                                           ³
+

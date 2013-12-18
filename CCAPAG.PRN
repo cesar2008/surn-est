@@ -1,0 +1,29 @@
+10 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+79 Ancho---------³
+01 TRANS(I_NH,'###')                                                        ³
+02 DTOC(DATE())                                                             ³
+13 STRZERO(PRV->CODPROV,FLEN(FIELD->CODPROV))                               ³
+13 PRV->RAZONSOC                                                            ³
+13 TRANS(M->SALDO,'@Z ######.###')                                          ³
+13 TRANS(M->REMITOS,'@Z ######.###')                                        ³
+13 TRANS(M->TOTAL,'@Z ######.###')                                          ³
+14 TRANS(TSALDO,'@Z ######.###')                                            ³
+14 TRANS(TREMITOS,'@Z ######.###')                                          ³
+14 TRANS(TTOTAL,'@Z ######.###')                                            ³
+                                                                 HOJA N§þ__º³
+ ESTACION DE SERVICIO                                 Fecha emisi¢n þ______º³
+                                                                            ³
+                             ##################                             ³
+                             CUENTAS CORRIENTES                             ³
+                                  A PAGAR                                   ³
+                             ##################                             ³
+                                                                            ³
+=========================================== ========== ========== ==========³
+PROVEEDOR                                   Saldo      Facturas   Total     ³
+C¢digo                                      cta.cte               deuda     ³
+===== ==================================== ========== ========== ==========³
+þ____º þ__________________________________º þ________º þ________º þ________º³
+                       TOTAL :=             þ________º þ________º þ________º³
+

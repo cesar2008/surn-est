@@ -1,0 +1,18 @@
+//
+// DBFS.rmk
+// Make file for the DBFS program
+//
+// Copyright (c) 1990 Nantucket Corp.  All rights reserved.
+//
+
+.prg.obj:
+  $(disco)\L\CLIPPER5.20\BIN\CLIPPER $** /M /B /I$(disco)\L\CLIPPER5.20\INCLUDE
+DBFS.OBJ: DBFS.prg
+
+DBFS.EXE: DBFS.OBJ
+  SET LIB=$(disco)\L\CLIPPER5.20\LIB
+  SET PLL=$(disco)\L\CLIPPER5.20\PLL
+  SET OBJ=$(disco)\L\CLIPPER5.20\OBJ
+  SET RTLINKCMD=/FREE
+  $(disco)\L\CLIPPER5.20\BIN\RTLINK @DBFS OUTPUT DBFS.EXE
+

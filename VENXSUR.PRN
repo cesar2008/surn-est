@@ -1,0 +1,27 @@
+09 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+38---------------³
+01 TRANS(I_NH,'###')               ³
+02 DTOC(DATE())                    ³
+06 DTOC(DESDE)                     ³
+06 DTOC(HASTA)                     ³
+12 STR(aSurt[nR,1],4)              ³
+12 STR(aSurt[nR,2],10,3)           ³
+12 STR(aSurt[nR,3],10,2)           ³
+13 STR(nCANTIDAD,10,3)             ³
+13 STR(nIMPORTE,10,2)              ³
+                        HOJA N§ þ_º³
+                           þ______º³
+                                   ³
+      #######################      ³
+      # VENTAS POR SURTIDOR #      ³
+      #  þ______º þ______º  #      ³
+      #######################      ³
+                                   ³
+======== ========== ============   ³
+Surtidor Cantidad        Importe   ³
+======= ========== ============   ³
+þ______º þ________º þ__________º   ³
+***total þ________º þ__________º   ³
+

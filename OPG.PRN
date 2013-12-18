@@ -1,0 +1,43 @@
+13 Cant.Macros.  ³
+25 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+80  Ancho--------³
+05 DTOC(XOPG->FECHA)                                                         ³
+11 FPROV(M->CODPROV)                                                         ³
+16 DTOC(CO->FECHA)                                                           ³
+16 CO->NUMFAC                                                                ³
+16 STR(CO->TOTAL,10,2)                                                       ³
+18 STR(I_TOTAL,10,2)                                                         ³
+18 XOPG->DESCR                                                               ³
+20 STR(XOPG->EFECTIVO,10,2)                                                  ³
+23 FBAN(XCHE->CODBAN)                                                        ³
+23 DTOC(XCHE->FECHEMI)                                                       ³
+23 XCHE->NUMCHEQ                                                             ³
+23 STR(XCHE->MONTO,10,2)                                                     ³
+25 STR(XOPG->CHEQEMI,10,2)                                                   ³
+                                                                             ³
+                               ORDEN DE PAGO                                 ³
+                                                                             ³
+                                                                             ³
+D.O.C. S.A.                                         Fecha de pago: þ________º³
+Estaci¢n de Servicio UPF S.A.                                                ³
+Dg.73 N§ 16 esq. 120 La Plata (B1904DLB)                                     ³
+Tel/Fax: (0221) 422-4154                                                     ³
+                                                                             ³
+=============================================================================³
+Pago a la orden de: þ_________________________________________________º      ³
+                                                                             ³
+=============================================================================³
+Fecha      Comprobante          Importe                                      ³
+========= ================= ==========                                      ³
+þ________º þ_______________º þ________º                                      ³
+                             ==========                                      ³
+Total orden de pago:         þ________º  þ___________________________º       ³
+-----------------------------------------------------------------------------³
+Forma de pago:  Efectivo: þ________º                                         ³
+Banco      Fecha      Deposito/n§ Cheque    Importe                          ³
+========== ========== ================== ==========                          ³
+þ________º þ________º þ________________º þ________º                          ³
+                                         ==========                          ³
+                        Total            þ________º                          ³
+

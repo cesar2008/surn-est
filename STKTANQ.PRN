@@ -1,0 +1,38 @@
+18 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+63---------------³
+01 DEQUIEN                                                  ³
+01 TRANS(I_NH,'###')                                        ³
+02 DTOC(DATE())                                             ³
+06 DTOC(DESDE)                                              ³
+06 DTOC(HASTA)                                              ³
+08 FPROD(TAN->CODPROD)                                      ³
+09 STR(TAN->NUMTANQ)                                        ³
+09 STR(TAN->STOCKINI)                                       ³
+09 DTOC(TAN->FECHA)                                         ³
+14 DTOC(X->FECHA)                                           ³
+14 TRANS(X->COMPRAS,   "@Z #########.##")                   ³
+14 TRANS(X->VENTAS,    "@Z #########.##")                   ³
+14 TRANS(X->AJUSTES,   "@Z #########.##")                   ³
+14 TRANS(X->STOCKACT,  "@Z #########.##")                   ³
+15 TRANS(I_COMPRAS,    "@Z #########.##")                   ³
+15 TRANS(I_VENTAS,     "@Z #########.##")                   ³
+15 TRANS(I_AJUSTES,    "@Z #########.##")                   ³
+15 TRANS(M->STOCKACT,  "@Z #########.##")                   ³
+þ_______________________º                        HOJA N§ þ_º³
+                                                    þ______º³
+                                                            ³
+                   #######################                  ³
+                   # STOCK DE  TANQUES   #                  ³
+                   # þ______º - þ______º #                  ³
+                   #######################                  ³
+þ_____________________º                                   ³
+Tanque þ__º       STOCK INICIAL (1)þ___________º AL þ______º³
+======== ============ ============ ============ ============³
+Fecha        Cantidad     Cantidad     Cantidad Stock=(1)+(2³
+         (2) Comprada (3)  Vendida (4) Ajustada )-(3)+(4)   ³
+======= ============ ============ ============ ============³
+þ______º þ__________º þ__________º þ__________º þ__________º³
+TOTAL :  þ__________º þ__________º þ__________º þ__________º³
+

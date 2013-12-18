@@ -1,0 +1,27 @@
+10 Cant.Macros.  ³
+12 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+79---------------³
+01 TRANS(I_NH,'###')                                                        ³
+02 DTOC(DATE())                                                             ³
+07 I_SUBTITULO                                                              ³
+12 FPROD(BP->CODPROD)                                                       ³
+12 TRANS(BP->RECIBI,   "@Z ######.#")                                       ³
+12 TRANS(BP->INGRESADO,"@Z ######.#")                                       ³
+12 TRANS(BP->TOTAL,    "@Z ######.#")                                       ³
+12 TRANS(BP->ENTREGADO,"@Z ######.#")                                       ³
+12 TRANS(BP->VENDIDO,  "@Z ######.#")                                       ³
+12 TRANS(BP->IMPORTE,"@Z ########.#")                                       ³
+                                                                HOJA N§ þ_º ³
+                                                                   þ______º ³
+                                                                            ³
+                           ###################                              ³
+                           # PLANILLA DIARIA #                              ³
+                           ###################                              ³
+þ_______________________º                                                  ³
+==================== ======== ======== ======== ======== ======== ==========³
+Descripci¢n          Recib¡   Ingre-   Total    Entre-   Vendido  Importe   ³
+                              sado              gado                        ³
+=================== ======== ======== ======== ======== ======== ==========³
+þ__________________º þ______º þ______º þ______º þ______º þ______º þ________º³
+

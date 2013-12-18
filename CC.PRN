@@ -1,0 +1,37 @@
+17 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+100Ancho---------³
+01 TRANS(I_NH,'###')                                                                             ³
+02 DTOC(DATE())                                                                                  ³
+06 DTOC(DESDE)                                                                                   ³
+13 STRZERO(CC->(RECNO()),6)                                                                      ³
+13 CC->TIPOFAC +" "+ STRZERO(CC->NUMFAC,6,0)                                                     ³
+13 DTOC(CC->FECHA)                                                                               ³
+13 TRANS(CC->TOTAL,'######.###')                                                                 ³
+13 DTOC(apagos1[1])                                                                              ³
+13 TRANS(apagos2[1],'######.###')                                                                ³
+13 TRANS(apagos3[1],'######.###')                                                                ³
+13 TRANS(apagos4[1],'######.###')                                                                ³
+13 TRANS(saldoaux,'######.###')                                                                  ³
+14 DTOC(apagos1[I_i])                                                                            ³
+14 TRANS(apagos2[I_i],'######.###')                                                              ³
+14 TRANS(apagos3[I_i],'######.###')                                                              ³
+14 TRANS(apagos4[I_i],'######.###')                                                              ³
+14 TRANS(saldoaux,'######.###')                                                                  ³
+                                                                                      HOJA N§þ__º³
+ ESTACION DE SERVICIO                                                      Fecha emisi¢n þ______º³
+                                                                                                 ³
+                                    ###########################                                  ³
+                                    CUENTAS CORRIENTES DE VENTA                                  ³
+                                    A SALDAR  /  FRCHA þ______º                                  ³
+                                    ###########################                                  ³
+                                                                                                 ³
+====== ======= ======== ========== ======== ========= ========== ========== ========== ==========³
+N§ de  Tipo,N§ Fecha    Monto      Fecha    Efectivo  Cheque     Tarjeta    Total      Saldo     ³
+Cuenta Factura Venc.               de Pago                                                       ³
+===== ======= ======== ========== ======== ========= ========== ========== ========== ==========³
+þ____º þ_____º þ______º þ________º þ______º þ_______º þ________º þ________º þ________º þ________º³
+                                   þ______º þ_______º þ________º þ________º þ________º þ________º³
+TOTAL :=                                                                    þ________º þ________º³
+

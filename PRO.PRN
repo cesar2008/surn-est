@@ -1,0 +1,27 @@
+10 Cant.Macros.  ³
+12 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+121--------------³
+01 TRANS(I_NH,'###')                                                                                                  ³
+02 DTOC(DATE())                                                                                                       ³
+12 STR(RECNO(),4,0)                                                                                                   ³
+12 PRV->RAZONSOC                                                                                                      ³
+12 FARRAY(acativa,PRV->CATIVA)                                                                                        ³
+12 PRV->CUIT                                                                                                          ³
+12 PRV->DOMCOM                                                                                                        ³
+12 PRV->TELEMPRESA                                                                                                    ³
+12 PRV->CORREDOR                                                                                                      ³
+12 PRV->TELECORRED                                                                                                    ³
+                                                                                                           HOJA N§ þ_º³
+                                                                                                              þ______º³
+                                                                                                                      ³
+                                               ##########################                                             ³
+                                               # LISTADO DE PROVEEDORES #                                             ³
+                                               ##########################                                             ³
+                                                                                                                      ³
+==== ====================== ========== ============= ========================= ========== =============== ============³
+Cod. Proveedor              Categ.IVA  CUIT          Domicilio comercial       Tel‚fono   Corredor        Tel‚fono    ³
+                                                                               comercio                   corredor    ³
+=== ====================== ========== ============= ========================= ========== =============== ============³
+þ__º þ____________________º þ________º þ___________º þ_______________________º þ________º þ_____________º þ__________º³
+

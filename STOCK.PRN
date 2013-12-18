@@ -1,0 +1,29 @@
+11 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+99---------------³
+01 TRANS(I_NH,'###')                                                                            ³
+02 DTOC(DATE())                                                                                 ³
+12 STR(S->CODART)                                                                               ³
+12 S->DESCART                                                                                   ³
+12 TRANS(S->PRECBASE,'@Z ######.###')                                                           ³
+12 TRANS(S->IMPINT,'@Z ####.###')                                                               ³
+12 TRANS(S->PRECVENTA,'@Z ######.###')                                                          ³
+12 TRANS(S->STOCKACT ,'@Z #####.#')                                                             ³
+12 TRANS(S->STOCKMAX,'@Z #####.#')                                                              ³
+12 TRANS(S->STOCKMIN,'@Z #####.#')                                                              ³
+12 TRANS(S->DEPOSITO,'@Z #####.#')                                                              ³
+                                                                                    HOJA N§ þ_º ³
+ "ESTACION DE SERVICIO"                                                                þ______º ³
+                                                                                                ³
+                                  ########################                                      ³
+                                  # LISTADO DE PRODUCTOS #                                      ³
+                                  ########################                                      ³
+                                                                                                ³
+====== ========================= ========== ======== ========== ======= ======= ======= ========³
+C¢digo Descripci¢n               Precio     Impuesto Precio     Stock   Stock   Stock   Dep¢sito³
+                                 Base Venta Interno  Unitario   Exist.  M ximo  Minimo          ³
+===== ========================= ========== ======== ========== ======= ======= ======= ========³
+þ____º þ_______________________º þ________º þ______º þ________º þ_____º þ_____º þ_____º þ______º³
+SE LISTARON þ__º ARTICULOS      þ_________ºþ_______ºþ_________ºþ______ºþ______ºþ______ºþ_______º³
+

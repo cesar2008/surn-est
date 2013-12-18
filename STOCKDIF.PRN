@@ -1,0 +1,30 @@
+12 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+82---------------³
+01 TRANS(I_NH,'###')                                                           ³
+02 DTOC(DATE())                                                                ³
+06 DTOC(DESDE)                                                                 ³
+06 DTOC(HASTA)                                                                 ³
+12 STR(X->CODPROD)                                                             ³
+12 X->DESCPROD                                                                 ³
+12 STR(X->CANTCOM,8,1)                                                         ³
+12 STR(X->CANTVEN,8,1)                                                         ³
+12 STR(X->CANTAJU,8,1)                                                         ³
+12 STR(X->CANTCOM-X->CANTVEN+X->CANTAJU,8,1)                                   ³
+12 STR((X->CANTCOM-X->CANTVEN+X->CANTAJU)*X->PRECIO,10,2)                      ³
+13 STR(M->TOTAL,11,2)                                                          ³
+                                                                    HOJA N§ þ_º³
+                                                                       þ______º³
+                                                                               ³
+                               ######################                          ³
+                               # STOCK DE ARTICULOS #                          ³
+                               # þ______º  þ______º #                          ³
+                               ######################                          ³
+====== ========================= ======== ======== ======== ======== ==========³
+C¢digo Descripci¢n               Cantidad Cantidad Cantidad    Stock      Valor³
+                                 Comprada Vendida  Ajustada                    ³
+===== ========================= ======== ======== ======== ======== ==========³
+þ____º þ_______________________º þ______º þ______º þ______º þ______º þ________º³
+                                                                    þ_________º³
+

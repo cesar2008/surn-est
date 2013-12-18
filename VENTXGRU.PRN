@@ -1,0 +1,36 @@
+17 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+94---------------³
+01 TRANS(I_NH,'###')                                                                       ³
+02 DTOC(DATE())                                                                            ³
+06 DTOC(DESDE)                                                                             ³
+06 DTOC(HASTA)                                                                             ³
+11 STR(dxm,2)+RIGHT(DTOC(HASTA),6)                                                         ³
+13 FGRUPO(X->GRUPO)                                                                        ³
+13 TRANS(X->CANTIDAD, "@Z #######.##")                                                     ³
+13 TRANS(X->IMPORTE,  "@Z #########.##")                                                   ³
+13 TRANS(X->PROMLXDIA,"@Z #######.##")                                                     ³
+13 DTOC(X->FECHAHTA)                                                                       ³
+13 TRANS(X->VTAEST,   "@Z #########.##")                                                   ³
+13 TRANS(X->COMPRAL,  "@Z #########.##")                                                   ³
+14 TRANS(M->CANTIDAD, "@Z #########.##")                                                   ³
+14 TRANS(M->TOTAL,    "@Z #########.##")                                                   ³
+14 TRANS(M->PROMLXDIA,"@Z #########.##")                                                   ³
+14 TRANS(M->VTAEST,   "@Z #########.##")                                                   ³
+14 TRANS(M->COMPRAL,  "@Z #########.##")                                                   ³
+                                                                                HOJA N§ þ_º³
+                                                                                   þ______º³
+                                                                                           ³
+                                   #####################                                   ³
+                                   # VENTAS POR  GRUPO #                                   ³
+                                   # þ______º þ______º #                                   ³
+                                   #####################                                   ³
+                                                                                           ³
+=================== ========== ============ ========== ========== ============ ============³
+Grupo                 Cantidad      Importe   Promedio Ultima Vta Venta Estim.      Compras³
+                                            Ltrs.x d¡a registrada al þ______º              ³
+================== ========== ============ ========== ========== ============ ============³
+þ_________________º þ________º þ__________º þ________º þ________º þ__________º þ__________º³
+TOTAL :=           þ_________º þ__________ºþ_________º            þ__________º þ__________º³
+

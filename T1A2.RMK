@@ -1,0 +1,32 @@
+//
+// T1A2.rmk
+// Make file for the T1A2 program
+//
+// Copyright (c) 1990 Nantucket Corp.  All rights reserved.
+//
+makepath[.OBJ]=OBJ
+#iffile \nada.bat
+ cmd = /FREE /PLL:BASE52
+#else
+ cmd = /FREE
+#endif
+
+#iffile ..\DE.RMK
+ #include "..\DE.RMK"
+#else
+ deq = ""
+#endif
+#stdout $(deq)
+
+.prg.obj:
+  $(disco)\L\CLIPPER5.20\BIN\CLIPPER $** /M /B /I$(disco)\L\CLIPPER5.20\INCLUDE /o$@ /D$(deq)
+T1A2.OBJ: T1A2.PRG
+OEST.OBJ: \SURN\EST\OEST.PRG
+
+T1A2.EXE: T1A2.OBJ OEST.OBJ
+  SET LIB=$(disco)\L\CLIPPER5.20\LIB
+  SET PLL=$(disco)\L\CLIPPER5.20\PLL
+  SET OBJ=OBJ;$(disco)\L\CLIPPER5.20\OBJ
+  SET RTLINKCMD=$(cmd)
+  $(disco)\L\CLIPPER5.20\BIN\RTLINK @T1A2 OUTPUT T1A2.EXE
+

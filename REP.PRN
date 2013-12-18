@@ -1,0 +1,26 @@
+07 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+59---------------³
+01 TRANS(I_NH,'###')                                    ³
+02 DTOC(DATE())                                         ³
+06 DTOC(M->FECHA)                                       ³
+13 STR(AXR[nR,RG_CODPROD],5)                            ³
+13 AXR[nR,RG_DESCPROD]                                  ³
+13 TRANS(AXR[nR,RG_CANTIDAD],"@Z ####.###")             ³
+14 STR(I_CANT,4)                                        ³
+                                             HOJA N§ þ_º³
+ "SERVICOMPRAS"                                 þ______º³
+                                                        ³
+                ##########################              ³
+                # PLANILLA DE REPOSICION #              ³
+                #    FECHA  þ______º     #              ³
+                ##########################              ³
+                                                        ³
+===== ======================================= ==========³
+C¢d.  Descripci¢n                             Cantidad  ³
+prod.                                                   ³
+==== ======================================= ==========³
+þ___º þ_____________________________________º þ________º³
+se imprimieron þ__º productos                           ³
+

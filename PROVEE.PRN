@@ -1,0 +1,25 @@
+08 Cant.Macros.  ³
+12 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+89 --------------³
+01 TRANS(I_NH,'###')                                                                  ³
+02 DTOC(DATE())                                                                       ³
+12 STR(RECNO(),4,0)                                                                   ³
+12 PRV->RAZONSOC                                                                      ³
+12 PRV->CATIVA                                                                        ³
+12 PRV->CUIT                                                                          ³
+12 PRV->DOMCOM                                                                        ³
+12 PRV->TELEMPRESA                                                                    ³
+                                                                           HOJA N§ þ_º³
+ "CAVAS de MONTEVERDE"                                                        þ______º³
+                                                                                      ³
+                             ##########################                               ³
+                             # LISTADO DE PROVEEDORES #                               ³
+                             ##########################                               ³
+                                                                                      ³
+==== ==================== ========= ============= ========================= ==========³
+Cod. Nombre Fantas¡a      Categ.IVA CUIT          Domicilio comercial       Tel‚fono  ³
+     RAZON SOCIAL                                                                     ³
+=== ==================== ========= ============= ========================= ==========³
+þ__º þ__________________º þ_______º þ___________º þ_______________________º þ________º³
+

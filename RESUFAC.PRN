@@ -1,0 +1,49 @@
+30 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+115Ancho---------³
+01 TRANS(I_NH,'###')                                                                                            ³
+02 DTOC(DATE())                                                                                                 ³
+05 I_TIPOFACT                                                                                                   ³
+06 DTOC(DESDE)                                                                                                  ³
+06 DTOC(HASTA)                                                                                                  ³
+13 DTOC(X->FECHA)                                                                                               ³
+13 STR(X->FDESDE,6,0)                                                                                           ³
+13 STR(X->FHASTA,6,0)                                                                                           ³
+13 STR(X->FHASTA-X->FDESDE+1,8,0)                                                                               ³
+13 TRANS(X->TPRECBASE,"#####.##")                                                                               ³
+13 TRANS(X->TUTILIDAD,"#####.##")                                                                               ³
+13 TRANS(X->TDESCUENTO,"#####.##")                                                                              ³
+13 TRANS(X->TPRECBASEV,"#####.##")                                                                              ³
+13 TRANS(X->TIMPINT,"#####.##")                                                                                 ³
+13 TRANS(X->TIVA1,"#####.##")                                                                                   ³
+13 TRANS(X->TIVA2,"#####.##")                                                                                   ³
+13 TRANS(X->TPRECUNIT,"#####.##")                                                                               ³
+13 TRANS(X->TPRECUNIT-X->TDESCUENTO,"#####.##")                                                                 ³
+14 STR(MDESDE,6,0)                                                                                              ³
+14 STR(MHASTA,6,0)                                                                                              ³
+14 STR(MHASTA-MDESDE+1,8,0)                                                                                     ³
+14 TRANS(MPRECBASE,"#####.##")                                                                                  ³
+14 TRANS(MUTILIDAD,"#####.##")                                                                                  ³
+14 TRANS(MDESCUENTO,"#####.##")                                                                                 ³
+14 TRANS(MPRECBASEV,"#####.##")                                                                                 ³
+14 TRANS(MIMPINT,"#####.##")                                                                                    ³
+14 TRANS(MIVA1,"#####.##")                                                                                      ³
+14 TRANS(MIVA2,"#####.##")                                                                                      ³
+14 TRANS(MPRECUNIT,"#####.##")                                                                                  ³
+14 TRANS(MPRECUNIT-MDESCUENTO,"#####.##")                                                                       ³
+                                                                                                     HOJA N§þ__º³
+ "CAVAS de MONTEVERDE"                                                                                  þ______º³
+                                                                                                                ³
+                                    ################################                                            ³
+                                    RESUMEN DE VENTA FACTURAS þ____º                                            ³
+                                    PERIODO  þ______º - þ______º                                                ³
+                                    ################################                                            ³
+                                                                                                                ³
+======== ====== ====== ======== ======== ======== ======== ======== ======== ======== ======== ======== ========³
+Fecha    Desde  Hasta  Cantidad Total    Total    Total    Total    Total    Total    Total    Total    Total   ³
+         fact.  fact.  facturas Pr.Base  Utilidad Descuent Pr.Venta Imp.Int. I.V.A.   I.V.A.NI Pr.Unit.         ³
+======= ====== ====== ======== ======== ======== ======== ======== ======== ======== ======== ======== ========³
+þ______º þ____º þ____º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º³
+Total =  þ____º þ____º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º þ______º³
+

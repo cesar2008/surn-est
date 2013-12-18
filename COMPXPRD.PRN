@@ -1,0 +1,33 @@
+13 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+77 Ancho---------³
+01 TRANS(I_NH,'###')                                                      ³
+02 DTOC(DATE())                                                           ³
+06 DTOC(DESDE)                                                            ³
+06 DTOC(HASTA)                                                            ³
+13 STR(X->CODPROD,6)                                                      ³
+13 X->DESCPROD                                                            ³
+13 STR(X->CANTIDAD,10,1)                                                  ³
+13 STR(X->CAPACIDAD*X->CANTIDAD,10,2)                                     ³
+13 STR(X->IMPORTE,10,2)                                                   ³
+14 STR(M->TCANTIDAD,11,1)                                                 ³
+14 STR(M->TLITROS,11,2)                                                   ³
+14 STR(M->TIMPORTE,11,2)                                                  ³
+15 STR(M->TTIMPORTE,11,2)                                                 ³
+                                                               HOJA N§þ__º³
+"ESTACION DE SERVICIO"                                            þ______º³
+                                                                          ³
+                     ###############################                      ³
+                     RESUMEN DE COMPRAS POR PRODUCTO                      ³
+                      PERIODO  þ______º - þ______º                        ³
+                     ###############################                      ³
+                                                                          ³
+========================================= ========== ========== ==========³
+PRODUCTO                                    Cantidad     Litros    Importe³
+C¢digo Descripci¢n                                                        ³
+===== ================================== ========== ========== ==========³
+þ____º þ________________________________º þ________º þ________º þ________º³
+                                         þ_________ºþ_________ºþ_________º³
+TOTAL  :=                                                      þ_________º³
+

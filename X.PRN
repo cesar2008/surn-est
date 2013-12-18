@@ -1,0 +1,33 @@
+14 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+70---------------³
+01 TRANS(I_NH,'###')                                               ³
+02 DTOC(DATE())                                                    ³
+06 DTOC(DESDE)                                                     ³
+13 STR(nTurno,3)                                                   ³
+13 STRZERO(aTdde[nTurno],8)                                        ³
+13 STRZERO(aThta[nTurno],8)                                        ³
+13 TRANS(aTicket[nTurno], "@Z #######.##")                         ³
+13 TRANS(aFactura[nTurno],"@Z #######.##")                         ³
+13 TRANS(aTotal[nTurno],  "@Z #######.##")                         ³
+13 TRANS(aRemito[nTurno], "@Z #######.##")                         ³
+14 TRANS(ASUMAR(aTicket), "@Z #######.##")                         ³
+14 TRANS(ASUMAR(aFactura),"@Z #######.##")                         ³
+14 TRANS(ASUMAR(aTotal),  "@Z #######.##")                         ³
+14 TRANS(ASUMAR(aRemito), "@Z #######.##")                         ³
+                                                       HOJA N§ þ_º ³
+ "ESTACION DE SERVICIO"                                   þ______º ³
+                                                                   ³
+                     ###################                           ³
+                     # INFORME DE CAJA #                           ³
+                     # FECHA  þ______º #                           ³
+                     ###################                           ³
+                                                                   ³
+===== ======== ======== ========== ========== ========== ==========³
+Turno    Desde    Hasta    Tickets   Facturas      TOTAL     Remito³
+         tick.    tick.                                            ³
+==== ======== ======== ========== ========== ========== ==========³
+þ___º þ______º þ______º þ________º þ________º þ________º þ________º³
+TOTAL                   þ________º þ________º þ________º þ________º³
+

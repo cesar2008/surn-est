@@ -1,0 +1,17 @@
+//
+// NTX.rmk
+// Make file for the NTX program
+//
+// Copyright (c) 1990 Nantucket Corp.  All rights reserved.
+//
+
+.prg.obj:
+  \L\CLIPPER5.20\BIN\CLIPPER $** /M /B /A /I\L\CLIPPER5.20\INCLUDE
+
+NTX.OBJ: NTX.prg
+
+NTX.EXE: NTX.OBJ
+  SET LIB=\L\CLIPPER5.20\LIB;
+  SET RTLINKCMD=/FREE
+  \L\CLIPPER5.20\BIN\RTLINK @NTX
+

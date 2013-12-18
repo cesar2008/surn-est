@@ -1,0 +1,40 @@
+file EST
+OUTPUT EST
+BEGINAREA
+   SECTION INTO ACT
+      file ACT
+   SECTION INTO EST3
+      file EST3
+   SECTION INTO EST4
+      file EST4
+   SECTION INTO ART
+      file ART
+   SECTION INTO PRO
+      file PRO
+   SECTION INTO CLI
+      file CLI
+   SECTION INTO REM
+      file REM
+   SECTION INTO FAC
+      file FAC
+   SECTION INTO CC
+      file CCV
+      file CCC
+      file ATB
+   SECTION INTO CHE
+      file CHE
+   SECTION INTO TAR
+      file TAR
+   SECTION INTO CAJ
+      file CAJ
+   SECTION INTO COM
+      file COM
+   SECTION INTO BAN
+      file BAN
+   SECTION INTO PL
+      file PL
+   SECTION INTO DOC
+      file DOC
+ENDAREA
+DEBUG
+

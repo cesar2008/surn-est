@@ -1,0 +1,50 @@
+31 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+152 Ancho--------³
+01 TRANS(I_NH,'###')                                                                                                                                 ³
+02 DEQUIEN                                                                                                                                           ³
+02 DTOC(DATE())                                                                                                                                      ³
+06 DTOC(DESDE)                                                                                                                                       ³
+06 DTOC(HASTA)                                                                                                                                       ³
+13 DTOC(CO->FECHA)                                                                                                                                   ³
+13 CO->RAZONSOC                                                                                                                                      ³
+13 CO->CUIT                                                                                                                                          ³
+13 CO->CATIVA                                                                                                                                        ³
+13 CO->NUMFAC                                                                                                                                        ³
+13 TRANS(CO->NETO,      "#####.##")                                                                                                                  ³
+13 TRANS(CO->CREDITO,   "#####.##")                                                                                                                  ³
+13 TRANS(CO->EXENTO,    "#####.##")                                                                                                                  ³
+13 TRANS(CO->IMPINT,   "######.##")                                                                                                                  ³
+13 TRANS(CO->PERCEPCION,"#####.##")                                                                                                                  ³
+13 TRANS(CO->PERCIIBB,  "#####.##")                                                                                                                  ³
+13 TRANS(CO->TOTAL,    "######.##")                                                                                                                  ³
+13 TRANS(CO->RETIVA,    "#####.##")                                                                                                                  ³
+13 TRANS(CO->RETIB,     "#####.##")                                                                                                                  ³
+13 TRANS(CO->RETGAN,    "#####.##")                                                                                                                  ³
+14 STR(nCANT,5)                                                                                                                                      ³
+14 TRANS(nNETO,      "######.##")                                                                                                                    ³
+14 TRANS(nCREDITO,   "######.##")                                                                                                                    ³
+14 TRANS(nEXENTO,    "######.##")                                                                                                                    ³
+14 TRANS(nIMPINT,   "#######.##")                                                                                                                    ³
+14 TRANS(nPERCEPCION,"######.##")                                                                                                                    ³
+14 TRANS(nPERCIIBB,  "######.##")                                                                                                                    ³
+14 TRANS(nTOTAL,    "#######.##")                                                                                                                    ³
+14 TRANS(nRETIVA,    "######.##")                                                                                                                    ³
+14 TRANS(nRETIB,     "######.##")                                                                                                                    ³
+14 TRANS(nRETGAN,    "######.##")                                                                                                                    ³
+                                                                                                                                          HOJA N§þ__º³
+ þ____________________º                                                                                                                      þ______º³
+                                                                                                                                                     ³
+ð#########################                                                                                                                           ³
+ðRESUMEN DE COMPRAS VARIAS                                                                                                                           ³
+ð   þ______º - þ______º                                                                                                                              ³
+ð#########################                                                                                                                           ³
+                                                                                                                                                     ³
+======== ============= ============= === ================ ======== ======== ======== ========= ======== ======== ========= ======== ======== ========³
+Fecha    Proveedor     C.U.I.T       Cat N§ Factura           Neto  Cr‚dito   Exento  Imp.Int. Percepc. Percepc.     Total Ret.IVA    Ret.IB  Ret.GAN³
+                                                                                                    IVA       IB                                     ³
+======= ============= ============= === ================ ======== ======== ======== ========= ======== ======== ========= ======== ======== ========³
+þ______º þ___________º þ___________º þ_º þ______________º þ______º þ______º þ______º þ_______º þ______º þ______º þ_______º þ______º þ______º þ______º³
+                                  Total (þ___º)          þ_______ºþ_______ºþ_______ºþ________ºþ_______ºþ_______ºþ________ºþ_______ºþ_______ºþ_______º³
+

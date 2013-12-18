@@ -1,0 +1,37 @@
+06 Cant.Macros.  ³
+12 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+51---------------³
+01 TRANS(I_NH,'###')                            ³
+02 DTOC(DATE())                                 ³
+12 STRZERO(CLA->CODCLI,4)                       ³
+12 CLA->RAZONSOC                                ³
+12 CLA->CUIT                                    ³
+12 CLA->CATIVA                                  ³
+                                     HOJA N§ þ_º³
+þ____________________º                  þ______º³
+                                                ³
+            ########################            ³
+            # CLIENTES CON C.U.I.T #            ³
+            ########################            ³
+                                                ³
+==== ========================= ============= ===³
+C¢d. Corredor                  C.U.I.T.      Cat³
+                                             IVA³
+=== ========================= ============= ===³
+þ__º þ_______________________º þ___________º þ_º³
+
+
+
+Structure for database: C:CORR.dbf
+Number of data records:       5
+Date of last update   : 04/07/97
+Field  Field Name  Type       Width    Dec
+    1  CODCORR     Numeric        3
+    2  CORREDOR    Character     25
+    3  DOMICILIO   Character     20
+    4  CODLOC      Numeric        4
+    5  TELEFONO    Character     15
+    6  PORCOMIS    Numeric        7      2
+** Total **                      75
+

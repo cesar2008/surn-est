@@ -1,0 +1,29 @@
+11 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+48---------------³
+01 TRANS(I_NH,'###')                         ³
+02 DTOC(DATE())                              ³
+06 DTOC(DESDE)                               ³
+06 DTOC(HASTA)                               ³
+12 DTOC(X->FECHA)                            ³
+12 X->TURNO                                  ³
+12 str(X->NUMERO)                            ³
+12 DTOC(X->FECHCOBRO)                        ³
+12 STR(X->MONTO)                             ³
+13 TRANS(I_CANT,"@Z ####")                   ³
+13 TRANS(I_TOTAL,"@Z #######.##")            ³
+                                  HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"              þ______º³
+                                             ³
+ð###################                         ³
+ð# COPRES COBRADOS #                         ³
+ðþ______º þ______º #                         ³
+ð###################                         ³
+======== == ============= ======== ==========³
+Fecha    Tu Numero        Fecha    Monto     ³
+                          Cobro              ³
+======= == ============= ======== ==========³
+þ______º þº þ___________º þ______º þ________º³
+  ( þ__º)           TOTAL .........þ________º³
+

@@ -1,0 +1,32 @@
+12 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+46---------------³
+01 TRANS(I_NH,'###')                       ³
+02 DTOC(DATE())                            ³
+06 DTOC(DESDE)                             ³
+06 DTOC(HASTA)                             ³
+13 DTOC(X->FECHPAGO)                       ³
+13 STR(X->LOTE)                            ³
+13 DTOC(X->FECHCOBRO)                      ³
+13 STR(X->MONTO)                           ³
+14 TRANS(I_CANT,"@Z ####")                 ³
+14 TRANS(I_TOTAL,"@Z #######.##")          ³
+15 TRANS(I_TCANT,"@Z #####")               ³
+15 TRANS(I_TTOTAL,"@Z #######.##")         ³
+                                HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"            þ______º³
+                                           ³
+ð#####################                     ³
+ð# POSNET EN CARTERA #                     ³
+ð# þ______º þ______º #                     ³
+ð#####################                     ³
+                                           ³
+======== ============= ======== ========== ³
+Fecha    N§ Lote       Fecha    Monto      ³
+                       Cobro               ³
+======= ============= ======== ========== ³
+þ______º þ___________º þ______º þ________º ³
+                        ( þ__º )þ________º ³
+( þ___º )        TOTAL .........þ________º ³
+

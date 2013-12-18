@@ -1,0 +1,31 @@
+12 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+91 Ancho---------³
+01 TRANS(I_NH,'###')                                                                    ³
+02 DTOC(DATE())                                                                         ³
+06 DTOC(DESDE)                                                                          ³
+06 DTOC(HASTA)                                                                          ³
+13 STR(X->CODPROD,6)                                                                    ³
+13 X->DESCPROD                                                                          ³
+13 TRANS(X->CANTVEN,'@Z #######')                                                       ³
+13 TRANS(X->CANTDES,'@Z #######')                                                       ³
+13 TRANS(X->CANTIDAD,'@Z #######')                                                      ³
+13 TRANS(X->IMPORTE,"@Z #######.##")                                                    ³
+13 TRANS(X->CANTCOM,'@Z #######')                                                       ³
+14 TRANS(M->IMPORTE,"#######.##")                                                       ³
+                                                                             HOJA N§þ__º³
+                                                                                þ______º³
+                                                                                        ³
+                            ##############################                              ³
+                            RESUMEN DE VENTAS POR ARTICULO                              ³
+                             PERIODO  þ______º - þ______º                               ³
+                            ##############################                              ³
+                                                                                        ³
+========================================= ======== ======== ======== ========== ========³
+ARTICULOS                                 Ventas x Cantidad Vendido  Total $    Cantidad³
+C¢digo Descripci¢n                        Tickets  Desperd. Cant.Tot Vendido    Comprada³
+===== ================================== ======== ======== ======== ========== ========³
+þ____º þ________________________________º þ______º þ______º þ______º þ________º þ______º³
+TOTAL :=                                                             þ________º         ³
+

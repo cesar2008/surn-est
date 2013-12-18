@@ -1,0 +1,32 @@
+13 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+81 Ancho---------³
+01 TRANS(I_NH,'###')                                                          ³
+02 DEQUIEN                                                                    ³
+02 DTOC(DATE())                                                               ³
+13 STRZERO(CL->CODCLI,6)                                                      ³
+13 CL->RAZONSOC                                                               ³
+13 TRANS(M->SALDO,   '@Z #######.###')                                        ³
+13 TRANS(M->REMITOS, '@Z #######.###')                                        ³
+13 TRANS(M->FACTURAS,'@Z #######.###')                                        ³
+13 TRANS(M->TOTAL,   '@Z #######.###')                                        ³
+14 TRANS(TSALDO,     '@Z #######.###')                                        ³
+14 TRANS(TREMITOS,   '@Z #######.###')                                        ³
+14 TRANS(TFACTURAS,  '@Z #######.###')                                        ³
+14 TRANS(TTOTAL,     '@Z #######.###')                                        ³
+                                                                   HOJA N§þ__º³
+ þ__________________º                                   Fecha emisi¢n þ______º³
+                                                                              ³
+ð##################                                                           ³
+ðCUENTAS CORRIENTES                                                           ³
+ðDE VENTA A  COBRAR                                                           ³
+ð##################                                                           ³
+                                                                              ³
+============================== =========== =========== =========== ===========³
+C¢digo Raz¢n Social                  Saldo  Remitos No    Facturas       Total³
+                                   cta.cte    marcados No marcadas       deuda³
+===== ======================= =========== =========== =========== ===========³
+þ____º þ_____________________º þ_________º þ_________º þ_________º þ_________º³
+          TOTAL :=             þ_________º þ_________º þ_________º þ_________º³
+

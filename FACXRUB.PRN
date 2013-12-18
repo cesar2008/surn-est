@@ -1,0 +1,32 @@
+14 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+71---------------³
+01 TRANS(I_NH,'###')                                                ³
+02 DTOC(DATE())                                                     ³
+05 DTOC(DESDE)                                                      ³
+05 DTOC(HASTA)                                                      ³
+12 X->TIPOFAC                                                       ³
+12 X->DESCRUB                                                       ³
+12 TRANS(X->TPRECBASE, "#######.##")                                ³
+12 TRANS(X->TIMPINT,   "#######.##")                                ³
+12 TRANS(X->TIVA,      "#######.##")                                ³
+12 TRANS(X->TPRECBASE+X->TIMPINT+X->TIVA, "#######.##")             ³
+13 TRANS(M->TPRECBASE, "#######.##")                                ³
+13 TRANS(M->TIMPINT,   "#######.##")                                ³
+13 TRANS(M->TIVA,      "#######.##")                                ³
+13 TRANS(M->TPRECBASE+M->TIMPINT+M->TIVA, "#######.##")             ³
+                                                         HOJA N§ þ_º³
+                                                            þ______º³
+ð########################                                           ³
+ð# FACTURADO POR  RUBRO #                                           ³
+ð#  þ______º  þ______º  #                                           ³
+ð########################                                           ³
+                                                                    ³
+==== =================== ========== ========== ========== ==========³
+     Grupo                     Neto   Impuesto        IVA      TOTAL³
+                                       Interno                      ³
+=== =================== ========== ========== ========== ==========³
+þ__º þ_________________º þ________º þ________º þ________º þ________º³
+TOTAL :=                 þ________º þ________º þ________º þ________º³
+

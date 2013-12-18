@@ -1,0 +1,44 @@
+25 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+119 Ancho--------³
+01 TRANS(I_NH,'###')                                                                                                ³
+02 DEQUIEN                                                                                                          ³
+02 DTOC(DATE())                                                                                                     ³
+06 DTOC(DESDE)                                                                                                      ³
+06 DTOC(HASTA)                                                                                                      ³
+13 STR(OP->OPROVIS)                                                                                                 ³
+13 DTOC(OP->FECHA)                                                                                                  ³
+13 DTOC(OP->FECHVENC)                                                                                               ³
+13 OP->TIPOORDEN                                                                                                    ³
+13 str(OP->TIPOCOMPRA)                                                                                              ³
+13 OP->OBSERV                                                                                                       ³
+13 STR(OP2->CODPROD,4)                                                                                              ³
+13 FPROD(OP2->CODPROD)                                                                                              ³
+13 STR(OP2->CANTPROVIS)                                                                                             ³
+13 STR(OP2->CANTUSADO)                                                                                              ³
+13 STR(OP2->CANTPROVIS-OP2->CANTUSADO,6)                                                                            ³
+13 STR(OP2->PORCDESC)                                                                                               ³
+13 STR(OP2->PLAZO)                                                                                                  ³
+14 STR(OP2->CODPROD,4)                                                                                              ³
+14 FPROD(OP2->CODPROD)                                                                                              ³
+14 STR(OP2->CANTPROVIS)                                                                                             ³
+14 STR(OP2->CANTUSADO)                                                                                              ³
+14 STR(OP2->CANTPROVIS-OP2->CANTUSADO,6)                                                                            ³
+14 STR(OP2->PORCDESC)                                                                                               ³
+14 STR(OP2->PLAZO)                                                                                                  ³
+                                                                                                         HOJA N§þ__º³
+ þ__________________________º                                                                               þ______º³
+                                                                                                                    ³
+ð####################                                                                                               ³
+ðORDENES DE PROVISION                                                                                               ³
+ð þ______º - þ______º                                                                                               ³
+ð####################                                                                                               ³
+                                                                                                                    ³
+========== ======== ======== == == ========================== ==== =============== ====== ====== ====== ====== =====³
+  Orden de Fecha    Fecha    Ti Ti Observaciones              C¢d. Producto        Provis  Usado  Queda % Dcto Plazo³
+ Provisi¢n          Vencim.  Or Co                            Prod                                                  ³
+========= ======== ======== == == ========================== ==== =============== ====== ====== ====== ====== =====³
+þ________º þ______º þ______º þº þº þ________________________º þ__º þ_____________º þ____º þ____º þ____º þ____º þ___º³
+                                                              þ__º þ_____________º þ____º þ____º þ____º þ____º þ___º³
+

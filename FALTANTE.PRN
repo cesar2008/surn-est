@@ -1,0 +1,30 @@
+10 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+56---------------³
+01 TRANS(I_NH,'###')                                 ³
+02 DTOC(DATE())                                      ³
+06 DTOC(DESDE)                                       ³
+06 DTOC(HASTA)                                       ³
+13 DTOC(X->FECHA)                                    ³
+13 FARRAY(aturno,X->TURNO+'-')                       ³
+13 X->DESCRIPC                                       ³
+13 TRANS(X->EGRESO-X->INGRESO,"@Z #########.##")     ³
+14 TRANS(M->FALTANTE,"@Z #########.##")              ³
+15 TRANS(M->TFALTANTE,"@Z #########.##")             ³
+                                          HOJA N§ þ_º³
+"ESTACION DE SERVICIO"                       þ______º³
+                                                     ³
+              #######################                ³
+              # FALTANTES  DE  CAJA #                ³
+              # þ______º   þ______º #                ³
+              #######################                ³
+                                                     ³
+======== ========== ==================== ============³
+Fecha    Turno      Descripci¢n          FALTANTES   ³
+                                         SOBRANTES   ³
+======= ========== ==================== ============³
+þ______º þ________º þ__________________º þ__________º³
+SUBTOTAL :=                              þ__________º³
+TOTAL    :=                              þ__________º³
+

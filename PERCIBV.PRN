@@ -1,0 +1,27 @@
+ 9 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+50---------------³
+01 TRANS(I_NH,'###')                           ³
+02 DTOC(DATE())                                ³
+06 DTOC(DESDE)                                 ³
+06 DTOC(HASTA)                                 ³
+13 DTOC(X->FECHA)                              ³
+13 X->TURNO                                    ³
+13 TRANS(X->TOTAL ,  "#########.#")            ³
+13 TRANS(X->TPERCIB, "#########.#")            ³
+13 TRANS(X->CANT_FAC, "#########")             ³
+                                    HOJA N§ þ_º³
+                                       þ______º³
+                                               ³
+           #######################             ³
+           PERCEPCIONES POR  TURNO             ³
+              þ______º þ______º                ³
+           #######################             ³
+                                               ³
+===== ====== ============  =========== ========³
+Fecha    Tur       Ventas       Total  Cantidad³
+         no                 perc IIBB          ³
+======= === ============  =========== ========³
+þ______º þ_º þ__________º  þ_________º þ______º³
+

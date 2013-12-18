@@ -1,0 +1,32 @@
+12 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+70 Ancho---------³
+01 TRANS(I_NH,'###')                                               ³
+02 DTOC(DATE())                                                    ³
+06 DTOC(DESDE)                                                     ³
+06 DTOC(HASTA)                                                     ³
+13 STR(X->CODPROD,6)                                               ³
+13 X->DESCPROD                                                     ³
+13 TRANS(X->CANTIDAD, '@Z #####.##')                               ³
+13 TRANS(X->IMPORTE, '@Z #######.##')                              ³
+13 TRANS(X->UTIL*X->CANTIDAD,'@Z #######.##')                      ³
+14 TRANS(M->TOTAL,'########.##')                                   ³
+14 TRANS(M->TUTIL,'#######.##')                                    ³
+15 TRANS(X->(LASTREC()),'#####')                                   ³
+                                                        HOJA N§þ__º³
+                                                           þ______º³
+                                                                   ³
+                 ##############################                    ³
+                 RESUMEN DE VENTAS POR ARTICULO                    ³
+                 PERIODO  þ______º  -  þ______º                    ³
+                 ##############################                    ³
+                                                                   ³
+==================================== ======== ========== ==========³
+ARTICULOS                            Cantidad    Importe   Utilidad³
+C¢digo Descripci¢n                                                 ³
+===== ============================= ======== ========== ==========³
+þ____º þ___________________________º þ______º þ________º þ________º³
+                                             þ_________º þ________º³
+               SE LISTARON þ___º ARTICULOS                         ³
+

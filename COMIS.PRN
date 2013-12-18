@@ -1,0 +1,34 @@
+15 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+91---------------³
+01 TRANS(I_NH,'###')                                                                    ³
+02 DTOC(DATE())                                                                         ³
+06 DTOC(DESDE)                                                                          ³
+06 DTOC(HASTA)                                                                          ³
+13 FCLIENTE(X->CODCLI)                                                                  ³
+13 X->TIPOFAC+" "+X->SUCURSAL+" "+STR(X->NUMFAC)                                        ³
+13 DTOC(X->FECHA)                                                                       ³
+13 STR(X->TOTAL1,10,2)                                                                  ³
+13 STR(X->TOTAL1*COR->PORCOMIS1/100,10,2)                                               ³
+13 STR(X->TOTAL2,10,2)                                                                  ³
+13 STR(X->TOTAL2*COR->PORCOMIS2/100,10,2)                                               ³
+14 STR(M->TOTAL1,10,2)                                                                  ³
+14 STR(M->TOTAL1*COR->PORCOMIS1/100,10,2)                                               ³
+14 STR(M->TOTAL2,10,2)                                                                  ³
+14 STR(M->TOTAL2*COR->PORCOMIS2/100,10,2)                                               ³
+                                                                             HOJA N§ þ_º³
+                                                                                þ______º³
+                                                                                        ³
+                                   #######################                              ³
+                                   # COMISIONES DE VENTA #                              ³
+                                   # þ______º - þ______º #                              ³
+                                   #######################                              ³
+                                                                                        ³
+==================== ============== ======== ===================== =====================³
+Cliente              Factura        Fecha        COMBUSTIBLES           LUBRICANTES     ³
+                                                Importe   Comisi¢n    Importe   Comisi¢n³
+=================== ============== ======== ========== ========== ========== ==========³
+þ__________________º þ____________º þ______º þ________º þ________º þ________º þ________º³
+TOTAL                                        þ________º þ________º þ________º þ________º³
+

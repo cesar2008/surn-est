@@ -1,0 +1,33 @@
+13 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+61---------------³
+01 TRANS(I_NH,'###')                                      ³
+02 DTOC(DATE())                                           ³
+06 DTOC(M->DESDE)                                         ³
+06 DTOC(M->HASTA)                                         ³
+13 DTOC(CA->FECHA)                                        ³
+13 CA->TURNO                                              ³
+13 CA->DESCRIPC                                           ³
+13 TRANS(CA->INGRESO,"@Z #######.##")                     ³
+13 TRANS(CA->EGRESO, "@Z #######.##")                     ³
+14 TRANS(M->INGRESO,"@Z #######.##")                      ³
+14 TRANS(M->EGRESO, "@Z #######.##")                      ³
+15 TRANS(M->TINGRESO,"@Z #######.##")                     ³
+15 TRANS(M->TEGRESO,"@Z #######.##")                      ³
+                                               HOJA N§ þ_º³
+"ESTACION DE SERVICIO"                            þ______º³
+                                                          ³
+ð###########################################              ³
+ð# LISTADO DE CAJA POR CONCEPTOS DETALLADO #              ³
+ð#     DESDE þ______º  HASTA þ______º      #              ³
+ð###########################################              ³
+                                                          ³
+======== == ======================== ========== ==========³
+Fecha    Tu Detalle                   Rendici¢n     Ventas³
+                                                          ³
+======= == ======================== ========== ==========³
+þ______º þº þ______________________º þ________º þ________º³
+            TOTAL                    þ________º þ________º³
+TOTAL =                              þ________º þ________º³
+

@@ -1,0 +1,37 @@
+18 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+108Ancho---------³
+01 TRANS(I_NH,'###')                                                                                     ³
+02 DTOC(DATE())                                                                                          ³
+06 DTOC(DESDE)                                                                                           ³
+06 DTOC(HASTA)                                                                                           ³
+13 STR(X->CODPROD,6)                                                                                     ³
+13 X->DESCPROD                                                                                           ³
+13 STR(X->CANTIDAD,9,1)                                                                                  ³
+13 TRANS(X->TOTAL-X->TIMPINT-X->TIVA1,"#######.##")                                                      ³
+13 TRANS(X->TIMPINT,"#######.##")                                                                        ³
+13 TRANS(X->TIVA1,"######.##")                                                                           ³
+13 TRANS(X->TDESCUENTO,"#######.##")                                                                     ³
+13 TRANS(X->TOTAL,"#######.##")                                                                          ³
+14 TRANS(M->CANTIDAD,"#######.##")                                                                       ³
+14 TRANS(M->TPRECBASE,"#######.##")                                                                      ³
+14 TRANS(M->TIMPINT,"#######.##")                                                                        ³
+14 TRANS(M->TIVA1,"######.##")                                                                           ³
+14 TRANS(M->TDESCUENTO,"#######.##")                                                                     ³
+14 TRANS(M->TOTAL,"#######.##")                                                                          ³
+                                                                                              HOJA N§þ__º³
+"ESTACION DE SERVICIO"                                                                           þ______º³
+                                                                                                         ³
+                               #############################                                             ³
+                               FACTURADO     POR    PRODUCTO                                             ³
+                               PERIODO  þ______º - þ______º                                              ³
+                               #############################                                             ³
+                                                                                                         ³
+========================================= ========= ========== ========== ========= ========== ==========³
+PRODUCTO                                   Cantidad       Neto   Impuesto    I.V.A.  Descuento      Total³
+C¢digo Descripci¢n                                                Interno                                ³
+===== ================================== ========= ========== ========== ========= ========== ==========³
+þ____º þ________________________________º þ_______º þ________º þ________º þ_______º þ________º þ________º³
+TOTAL :=                                 þ________º þ________º þ________º þ_______º þ________º þ________º³
+

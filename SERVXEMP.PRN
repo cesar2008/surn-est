@@ -1,0 +1,34 @@
+14 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+82 Ancho---------³
+01 TRANS(I_NH,'###')                                                           ³
+02 DTOC(DATE())                                                                ³
+06 DTOC(DESDE)                                                                 ³
+06 DTOC(HASTA)                                                                 ³
+13 STR(X->CODPROD,6)                                                           ³
+13 X->DESCPROD                                                                 ³
+13 STR(X->CANTIDAD,8,1)                                                        ³
+13 TRANS(X->IMPORTE,"#######.##")                                              ³
+13 TRANS(X->PORC,"###.##")                                                     ³
+13 TRANS(X->TOTPORC,"#######.##")                                              ³
+14 TRANS(M->IMPORTE,"#######.##")                                              ³
+14 TRANS(M->TOTPORC,"#######.##")                                              ³
+15 TRANS(M->TIMPORTE,"#######.##")                                             ³
+15 TRANS(M->TTOTPORC,"#######.##")                                             ³
+                                                                    HOJA N§þ__º³
+"ESTACION DE SERVICIO"                                                 þ______º³
+                                                                               ³
+                        #############################                          ³
+                        RESUMEN PLANILLA DE SERVICIOS                          ³
+                        PERIODO  þ______º - þ______º                           ³
+                        #############################                          ³
+                                                                               ³
+========================================= ======== ========== ====== ==========³
+SERVICIO ¢ PRODUCTO                       Cantidad Importe      %    Total     ³
+C¢digo Descripci¢n                                                             ³
+===== ================================== ======== ========== ====== ==========³
+þ____º þ________________________________º þ______º þ________º þ____º þ________º³
+                              SUBTOTAL :=          þ________º        þ________º³
+             TOTAL :=                              þ________º        þ________º³
+

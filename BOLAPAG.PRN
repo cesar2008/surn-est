@@ -1,0 +1,26 @@
+07 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+48 Ancho---------³
+01 TRANS(I_NH,'###')                         ³
+02 DTOC(DATE())                              ³
+13 CO->NUMFAC                                ³
+13 DTOC(CO->FECHA)                           ³
+13 DTOC(CO->FECHVENC)                        ³
+13 TRANS(CO->TOTAL,'@Z ######.###')          ³
+14 TRANS(M->TOTAL,'@Z ######.###')           ³
+                                  HOJA N§þ__º³
+                       Fecha emisi¢n þ______º³
+                                             ³
+ð##################                          ³
+ðBOLETAS A PAGAR                             ³
+ð                                            ³
+ð##################                          ³
+                                             ³
+================ ======== ======== ==========³
+Factura          Fecha    Fecha    Importe   ³
+                          Venc.              ³
+=============== ======== ======== ==========³
+þ______________º þ______º þ______º þ________º³
+                       TOTAL :=    þ________º³
+

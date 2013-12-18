@@ -1,0 +1,34 @@
+15 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+87  Ancho--------³
+01 TRANS(I_NH,'###')                                                                ³
+02 DEQUIEN                                                                          ³
+02 DTOC(DATE())                                                                     ³
+06 DTOC(DESDE)                                                                      ³
+06 DTOC(HASTA)                                                                      ³
+13 DTOC(LV->FECHA)                                                                  ³
+13 LV->TURNO                                                                        ³
+13 str(LV->NUMPARTE)                                                                ³
+13 LV->APENOM                                                                       ³
+13 LV->MARCA                                                                        ³
+13 LV->PATENTE                                                                      ³
+13 dtoc(LV->FECH_NAC)                                                               ³
+13 TRANS(LV->TOTAL  ,   "#####.##")                                                 ³
+14 str(M->CANTIDAD, 4)                                                              ³
+14 TRANS(M->TOTAL  ,   "######.##")                                                 ³
+                                                                         HOJA N§þ__º³
+ þ________________________º                                                 þ______º³
+                                                                                    ³
+ð###################                                                                ³
+ð VENTAS   LAVADERO                                                                 ³
+ðþ______º - þ______º                                                                ³
+ð###################                                                                ³
+                                                                                    ³
+======== == ===== ============================ ========== ======== ======== ========³
+Fecha    Tu N§    Apellido y Nombre            Marca      Patente  Fecha       TOTAL³
+            Parte                                                  Nacim.           ³
+======= == ===== ============================ ========== ======== ======== ========³
+þ______º þº þ___º þ__________________________º þ________º þ______º þ______º þ______º³
+                                            Total   þ___º                  þ_______º³
+

@@ -1,0 +1,31 @@
+12 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+82 Ancho---------³
+01 TRANS(I_NH,'###')                                                           ³
+02 DEQUIEN                                                                     ³
+02 DTOC(DATE())                                                                ³
+13 FCLIENTE(FIELD->CODCLI)                                                     ³
+13 FIELD->FACTURA                                                              ³
+13 DTOC(FIELD->FECHPAGO)                                                       ³
+13 TRANS(FIELD->COMIS,    '#######.##')                                        ³
+13 TRANS(FIELD->PAGOACORR,'#######.##')                                        ³
+13 TRANS(M->SALDO,        '#######.##')                                        ³
+14 TRANS(M->COMIS,    '#######.##')                                            ³
+14 TRANS(M->PAGOACORR,'#######.##')                                            ³
+14 TRANS(M->SALDO,        '#######.##')                                        ³
+                                                                    HOJA N§þ__º³
+ þ_________________º                                     Fecha emisi¢n þ______º³
+                                                                               ³
+ð#############                                                                 ³
+ðESTADO CUENTA                                                                 ³
+ðCORREDORES                                                                    ³
+ð#############                                                                 ³
+                                                                               ³
+====================== ============== ======== ========== ========== ==========³
+Cliente                Factura        Fecha      Comision      Total      Saldo³
+                                      Pago                    Pagado           ³
+===================== ============== ======== ========== ========== ==========³
+þ____________________º þ____________º þ______º þ________º þ________º þ________º³
+TOTAL :=                                       þ________º þ________º þ________º³
+

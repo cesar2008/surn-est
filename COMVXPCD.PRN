@@ -1,0 +1,42 @@
+22 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+100 Ancho--------³
+01 TRANS(I_NH,'###')                                                                             ³
+02 DEQUIEN                                                                                       ³
+02 DTOC(DATE())                                                                                  ³
+06 DTOC(DESDE)                                                                                   ³
+06 DTOC(HASTA)                                                                                   ³
+13 DTOC(CO->FECHA)                                                                               ³
+13 CO->RAZONSOC                                                                                  ³
+13 CO->CUIT                                                                                      ³
+13 CO->CATIVA                                                                                    ³
+13 CO->NUMFAC                                                                                    ³
+13 TRANS(CO->NETO,     "@Z ######.##")                                                           ³
+13 TRANS(CO->EXENTO,   "@Z ######.##")                                                           ³
+13 TRANS(CO->IMPINT,   "@Z ######.##")                                                           ³
+13 TRANS(nDESTINO,     "@Z ######.##")                                                           ³
+14 TRANS(nNETO,       "@Z #######.##")                                                           ³
+14 TRANS(nEXENTO,     "@Z #######.##")                                                           ³
+14 TRANS(nIMPINT,     "@Z #######.##")                                                           ³
+14 TRANS(nDESTINO1,   "@Z #######.##")                                                           ³
+15 TRANS(nNETO2,      "@Z #######.##")                                                           ³
+15 TRANS(nEXENTO2,    "@Z #######.##")                                                           ³
+15 TRANS(nIMPINT2,    "@Z #######.##")                                                           ³
+15 TRANS(nDESTINO2,   "@Z #######.##")                                                           ³
+                                                                                      HOJA N§þ__º³
+ þ____________________º                                                                  þ______º³
+                                                                                                 ³
+ð########################                                                                        ³
+ðCOMPRAS X PLAN DE CUENTA                                                                        ³
+ð   þ______º - þ______º                                                                          ³
+ð########################                                                                        ³
+                                                                                                 ³
+======== ============= ============= === ================ ========= ========= ========= =========³
+Fecha    Proveedor     C.U.I.T       Cat N§ Factura            Neto    Exento  Imp.Int.   Importe³
+                                                                                         afectado³
+======= ============= ============= === ================ ========= ========= ========= =========³
+þ______º þ___________º þ___________º þ_º þ______________º þ_______º þ_______º þ_______º þ_______º³
+                                       Total             þ________ºþ________ºþ________ºþ________º³
+TOTAL                                                    þ________ºþ________ºþ________ºþ________º³
+

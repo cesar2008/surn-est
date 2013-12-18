@@ -1,0 +1,34 @@
+16 Cant.Macros.  ³
+13 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+71  Ancho--------³
+01 TRANS(I_NH,'###')                                                ³
+02 DEQUIEN                                                          ³
+02 DTOC(DATE())                                                     ³
+12 STR(OP->OPROVIS)                                                 ³
+12 DTOC(OP->FECHA)                                                  ³
+12 DTOC(OP->FECHVENC)                                               ³
+12 OP->TIPOORDEN                                                    ³
+12 str(OP->TIPOCOMPRA)                                              ³
+12 STR(OP2->CANTPROVIS)                                             ³
+12 STR(OP2->CANTUSADO)                                              ³
+12 STR(OP2->CANTPROVIS-OP2->CANTUSADO,6)                            ³
+12 STR(OP2->PORCDESC)                                               ³
+12 STR(OP2->PLAZO)                                                  ³
+13 STR(nCANTPROVIS,6)                                               ³
+13 STR(nCANTUSADO,6)                                                ³
+13 STR(nCANTPROVIS-nCANTUSADO,6)                                    ³
+                                                         HOJA N§þ__º³
+ þ__________________________º                               þ______º³
+                                                                    ³
+ð####################                                               ³
+ðORDENES DE PROVISION                                               ³
+ð####################                                               ³
+                                                                    ³
+========== ======== ======== == == ====== ====== ====== ====== =====³
+  Orden de Fecha    Fecha    Ti Ti Provis  Usado  Queda % Dcto Plazo³
+ Provisi¢n          Vencim.  Or Co                                  ³
+========= ======== ======== == == ====== ====== ====== ====== =====³
+þ________º þ______º þ______º þº þº þ____º þ____º þ____º þ____º þ___º³
+                                   þ____º þ____º þ____º             ³
+

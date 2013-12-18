@@ -1,0 +1,31 @@
+12 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+54---------------³
+01 TRANS(I_NH,'###')                               ³
+02 DTOC(DATE())                                    ³
+06 DTOC(DESDE)                                     ³
+06 DTOC(HASTA)                                     ³
+13 DTOC(I_codaux)                                  ³
+13 M->TURNO                                        ³
+13 TRANS(M->INGRESO,"@Z #########.##")             ³
+13 TRANS(M->EGRESO,"@Z #########.##")              ³
+13 TRANS(M->INGRESO-M->EGRESO,"@Z #########.##")   ³
+14 TRANS(M->TINGRESO,"@Z #########.##")            ³
+14 TRANS(M->TEGRESO,"@Z #########.##")             ³
+14 TRANS(M->TINGRESO-M->TEGRESO,"@Z #########.##") ³
+                                        HOJA N§ þ_º³
+"ESTACION DE SERVICIO"                     þ______º³
+                                                   ³
+            #########################              ³
+            RESUMENES DE CAJA DIARIA               ³
+            PERIODO þ______º þ______º              ³
+            #########################              ³
+                                                   ³
+======== === ============ ============ ============³
+Fecha    Tur INGRESOS     EGRESOS      CAJA        ³
+                                                   ³
+======= === ============ ============ ============³
+þ______º þ_º þ__________º þ__________º þ__________º³
+TOTAL =      þ__________º þ__________º þ__________º³
+

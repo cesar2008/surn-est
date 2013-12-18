@@ -1,0 +1,41 @@
+20 Cant.Macros.  ³
+16 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+75 Ancho---------³
+01 TRANS(I_NH,'###')                                                    ³
+02 DTOC(DATE())                                                         ³
+06 DTOC(DESDE)                                                          ³
+06 DTOC(HASTA)                                                          ³
+08 alltrim(CL->RAZONSOC)                                                ³
+13 STR(RE->NUMFAC)                                                      ³
+13 DTOC(RE->FECHA)                                                      ³
+13 RE->HORA                                                             ³
+13 STR(RE2->CODPROD)                                                    ³
+13 RE2->DESCPROD                                                        ³
+13 STR(RE2->CANTIDAD,8,2)                                               ³
+13 STR(RE2->IMPORTE,10,2)                                               ³
+14 STR(RE2->CODPROD)                                                    ³
+14 RE2->DESCPROD                                                        ³
+14 STR(RE2->CANTIDAD,8,2)                                               ³
+14 STR(RE2->IMPORTE,10,2)                                               ³
+15 STR(M->TCANTIDAD,8,2)                                                ³
+15 STR(RE->TOTAL,10,2)                                                  ³
+16 STR(M->CANTREM,4)                                                    ³
+16 STR(M->TOTALREM,10,2)                                                ³
+                                                             HOJA N§þ__º³
+ "ESTACION DE SERVICIO"                                         þ______º³
+                                                                        ³
+                      ###################                               ³
+                      REMITOS POR PERIODO                               ³
+                      þ______º - þ______º                               ³
+                      ###################                               ³
+þ_____________________º                                                 ³
+======== ======== ====    ===== ==================== ======== ==========³
+n§       Fecha    Hora    C¢d.  Producto             Cantidad    Importe³
+Remito                                                                  ³
+======= ======== ====    ===== ==================== ======== ==========³
+þ______º þ______º þ__º    þ___º þ__________________º þ______º þ________º³
+                          þ___º þ__________________º þ______º þ________º³
+                          Total . . . . . . . . . .  þ______º þ________º³
+TOTAL              (þ__º)                                     þ________º³
+

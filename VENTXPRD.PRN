@@ -1,0 +1,35 @@
+16 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+97 Ancho---------³
+01 TRANS(I_NH,'###')                                                                          ³
+02 DTOC(DATE())                                                                               ³
+06 DTOC(DESDE)                                                                                ³
+06 DTOC(HASTA)                                                                                ³
+13 STR(X->CODPROD,6)                                                                          ³
+13 X->DESCPROD                                                                                ³
+13 STR(X->CANTIDAD,9,1)                                                                       ³
+13 TRANS(X->PRECBASE                ,"#######.##")                                            ³
+13 TRANS(X->IMPINT,"#######.##")                                                              ³
+13 TRANS(X->IVA,"######.##")                                                                  ³
+13 TRANS(X->IMPORTE,"#######.##")                                                             ³
+14 TRANS(M->CANTIDAD,"#######.##")                                                            ³
+14 TRANS(M->PRECBASE,"#######.##")                                                            ³
+14 TRANS(M->IMPINT,"#######.##")                                                              ³
+14 TRANS(M->PIVA,"######.##")                                                                 ³
+14 TRANS(M->IMPORTE,"#######.##")                                                             ³
+                                                                                   HOJA N§þ__º³
+"ESTACION DE SERVICIO"                                                                þ______º³
+                                                                                              ³
+                               ##############################                                 ³
+                               RESUMEN DE VENTAS POR PRODUCTO                                 ³
+                               PERIODO  þ______º - þ______º                                   ³
+                               ##############################                                 ³
+                                                                                              ³
+========================================= ========= ========== ========== ========= ==========³
+PRODUCTO                                   Cantidad       Neto   Impuesto    I.V.A.      Total³
+C¢digo Descripci¢n                                                Interno                     ³
+===== ================================== ========= ========== ========== ========= ==========³
+þ____º þ________________________________º þ_______º þ________º þ________º þ_______º þ________º³
+TOTAL :=                                 þ________º þ________º þ________º þ_______º þ________º³
+

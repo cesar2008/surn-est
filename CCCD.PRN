@@ -1,0 +1,46 @@
+22 Cant.Macros.  ³
+19 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+92 Ancho---------³
+01 TRANS(I_NH,'###')                                                                     ³
+02 DTOC(DATE())                                                                          ³
+06 DTOC(DESDE)                                                                           ³
+06 DTOC(HASTA)                                                                           ³
+12 PRV->RAZONSOC                                                                         ³
+12 str(PRV->SALDOINI)                                                                    ³
+13 CCC->NUMPAG                                                                           ³
+13 DTOC(CCC->FECHA)                                                                      ³
+13 TRANS(CCC->APAGAR,'@Z #######.##')                                                    ³
+13 TRANS(CCC->PAGADO,'@Z #######.##')                                                    ³
+13 TRANS(CCC->SALDOACUM,'#######.##')                                                    ³
+16 CO->NUMFAC                                                                            ³
+16 DTOC(CO->FECHA)                                                                       ³
+16 TRANS(CO->TOTAL,"#######.##")                                                         ³
+19 OPG->NUMOPAG                                                                          ³
+19 DTOC(OPG->FECHA)                                                                      ³
+19 TRANS(OPG->EFECTIVO,"@Z ######.##")                                                   ³
+19 TRANS(OPG->CHEQEMI ,"@Z ######.##")                                                   ³
+19 TRANS(OPG->CHEQUE  ,"@Z ######.##")                                                   ³
+19 TRANS(OPG->TARJETA ,"@Z ######.##")                                                   ³
+19 TRANS(OPG->OTROS   ,"@Z ######.##")                                                   ³
+19 TRANS(OPG->PAGADO  ,"@Z ######.##")                                                   ³
+                                                                              HOJA N§þ__º³
+ESTACION DE SERVICIO                                               Fecha emisi¢n þ______º³
+                                                                                         ³
+ð##################                                                                      ³
+ðPAGO A PROVEEDORES                                                                      ³
+ðþ______º  þ______º                                                                      ³
+ð##################                                                                      ³
+                                                                                         ³
+====== ========             ==========                              ========== ==========³
+N§Pago Fecha                   A Pagar                                  Pagado      Saldo³
+===== ========             ==========                              ========== ==========³
+þ____________________________________º                                         þ________º³
+þ____º þ______º             þ________º                              þ________º þ________º³
+  Comprobante      Fecha       Importe                                                   ³
+  ---------------- -------- ----------                                                   ³
+  þ______________º þ______º þ________º                                                   ³
+  N§ O.P. Fecha     Efectivo Cheq.Emit Cheq.Ter.   Tarjeta     Otros     Total           ³
+  ------- -------- --------- --------- --------- --------- --------- ---------           ³
+  þ_____º þ______º þ_______º þ_______º þ_______º þ_______º þ_______º þ_______º           ³
+

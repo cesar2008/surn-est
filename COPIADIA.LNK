@@ -1,0 +1,23 @@
+file COPIADIA
+file EST3
+file EST4
+file T2A1
+file T1A2
+file OEST
+
+file UDFS
+file V
+file TB
+file ATB
+file CALC
+file EDI
+file EDI2
+file ISPRINT
+file DEFAULT
+file FLOPTST
+
+lib CESAR
+lib llibce
+lib FTDIR
+lib TXT
+

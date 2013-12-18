@@ -1,0 +1,29 @@
+10 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+59 Ancho---------³
+01 TRANS(I_NH,'###')                                    ³
+02 DEQUIEN                                              ³
+02 DTOC(DATE())                                         ³
+13 DTOC(CCV->FECHA)                                     ³
+13 TRANS(CCV->APAGAR,   '#######.##')                   ³
+13 TRANS(CCV->PAGADO,   '#######.##')                   ³
+13 TRANS(CCV->SALDOACUM,'#######.##')                   ³
+13 CCV->FACTURA                                         ³
+14 TRANS(M->TOTAL,    '@Z #######.##')                  ³
+14 TRANS(M->SALDOACUM,'#######.##')                     ³
+                                             HOJA N§þ__º³
+ þ_________________º              Fecha emisi¢n þ______º³
+                                                        ³
+                #######################                 ³
+                ESTADO CUENTA CORRIENTE                 ³
+                                                        ³
+                #######################                 ³
+                                                        ³
+======== ========== ========== ========== ==============³
+Fecha         Total      Total      Saldo Factura       ³
+Cierre      a Pagar     Pagado                          ³
+======= ========== ========== ========== ==============³
+þ______º þ________º þ________º þ________º þ____________º³
+Facturas þ________º            þ________º               ³
+

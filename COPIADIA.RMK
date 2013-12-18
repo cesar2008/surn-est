@@ -1,0 +1,38 @@
+//
+// COPIADIA.rmk
+// Make file for the COPIADIA program
+//
+// Copyright (c) 1990 Nantucket Corp.  All rights reserved.
+//
+makepath[.OBJ]=OBJ
+#iffile \nada.bat
+ cmd = /FREE /PLL:BASE52
+#else
+ cmd = /FREE
+#endif
+
+#iffile ..\DE.RMK
+ #include "..\DE.RMK"
+#else
+ deq = ""
+#endif
+#stdout $(deq)
+
+.prg.obj:
+  $(disco)\L\CLIPPER5.20\BIN\CLIPPER $** /M /B /I$(disco)\L\CLIPPER5.20\INCLUDE /o$@ /D$(deq)
+COPIADIA.OBJ:     COPIADIA.PRG
+EST3.OBJ: EST3.prg
+EST4.OBJ:   EST4.PRG
+PROD.OBJ:   PROD.PRG
+T2A1.OBJ:  T2A1.PRG
+T1A2.OBJ:  T1A2.PRG
+OEST.OBJ: OEST.PRG
+
+COPIADIA2.EXE: COPIADIA.OBJ EST4.OBJ PROD.OBJ BL.OBJ T2A1.OBJ \
+	EST3.OBJ OEST.OBJ CP.OBJ T1A2.OBJ
+  SET LIB=$(disco)\L\CLIPPER5.20\LIB
+  SET PLL=$(disco)\L\CLIPPER5.20\PLL
+  SET OBJ=OBJ;$(disco)\L\CLIPPER5.20\OBJ
+  SET RTLINKCMD=$(cmd)
+  $(disco)\L\CLIPPER5.20\BIN\RTLINK @COPIADIA OUTPUT COPIADIA.EXE
+

@@ -1,0 +1,28 @@
+09 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+63 Ancho---------³
+01 TRANS(I_NH,'###')                                        ³
+02 DTOC(DATE())                                             ³
+06 DTOC(DESDE)                                              ³
+06 DTOC(HASTA)                                              ³
+13 STR(X->CODPROD,6)                                        ³
+13 X->DESCPROD                                              ³
+13 TRANS(X->TICKETS, '@Z #######')                          ³
+13 TRANS(X->IMPORTE1, '@Z #######.##')                      ³
+14 TRANS(M->TOTAL1, "#######.##")                           ³
+                                                 HOJA N§þ__º³
+                                                    þ______º³
+                                                            ³
+              ##############################                ³
+              RESUMEN DE VENTAS POR ARTICULO                ³
+               PERIODO  þ______º - þ______º                 ³
+              ##############################                ³
+                                                            ³
+========================================= ======== =========³
+ARTICULOS                                 Tickets    Total $³
+C¢digo Descripci¢n                                   Vendido³
+===== ================================== ======== =========³
+þ____º þ________________________________º þ______ºþ________º³
+TOTAL :=                                          þ________º³
+

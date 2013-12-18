@@ -1,0 +1,27 @@
+ 9 Cant.Macros.  ³
+14 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+54---------------³
+01 TRANS(I_NH,'###')                               ³
+02 DTOC(DATE())                                    ³
+12 DTOC(X->FECHPAGO)                               ³
+12 X->NUMTARJ                                      ³
+12 DTOC(X->FECHPRES)                               ³
+12 DTOC(X->FECHCOBRO)                              ³
+12 STR(X->MONTO)                                   ³
+13 TRANS(I_CANT,"@Z ####")                         ³
+13 TRANS(I_TOTAL,"@Z #######.##")                  ³
+                                        HOJA N§ þ_º³
+ "ESTACION DE SERVICIO"                    þ______º³
+                                                   ³
+              #######################              ³
+              # TARJETAS EN CARTERA #              ³
+              #######################              ³
+                                                   ³
+======== ============= ======== ======== ==========³
+Fecha    N§ de Tarjeta Fecha    Fecha    Monto     ³
+de pago                Present. Cobro              ³
+======= ============= ======== ======== ==========³
+þ______º þ___________º þ______º þ______º þ________º³
+  ( þ__º)                 TOTAL .........þ________º³
+

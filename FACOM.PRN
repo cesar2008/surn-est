@@ -1,0 +1,46 @@
+25 Cant.Macros.  ³
+16 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+83---------------³
+02 STR(EDCONT(AFAC,'CO->CODPROV'),4)                                            ³
+02 FPROV(EDCONT(AFAC,'CO->CODPROV'))                                            ³
+02 EDCONT(AFAC,'CO->NUMFAC')                                                    ³
+03 STR(EDCONT(AFAC,'CO->TIPOCOMPRA'),2)                                         ³
+03 DTOC(EDCONT(AFAC,'CO->FECHA'))                                               ³
+04 DTOC(EDCONT(AFAC,'CO->FECHVENC'))                                            ³
+05 FARRAY(aCativa,M->CATIVA)                                                    ³
+11 STR(AXR[nR,RG_CODPROD],FLEN(CO2->CODPROD))                                   ³
+11 AXR[nR,RG_CANTIDAD]                                                          ³
+11 STR(AXR[nR,RG_UNXCAJA],FLEN(CO2->UNXCAJA))                                   ³
+11 AXR[nR,RG_DESCPROD]                                                          ³
+11 TRANS(AXR[nR,RG_NETO],   '#####.####')                                       ³
+11 TRANS(AXR[nR,RG_TNETO],  '######.###')                                       ³
+11 TRANS(AXR[nR,RG_BONIF],  '######.###')                                       ³
+11 TRANS(AXR[nR,RG_IMPORTE],'######.###')                                       ³
+13 TRANS(M->TNETO   ,'#######.##')                                              ³
+13 TRANS(M->TIMPINT ,'#######.##')                                              ³
+13 TRANS(M->BULTOS  ,'#####')                                                   ³
+14 TRANS(M->PORCBON ,'##.##')                                                   ³
+14 TRANS(M->BONIF   ,'#######.##')                                              ³
+14 TRANS(M->PIVA1    ,'##.##')                                                  ³
+14 TRANS(M->TIVA1   ,'#######.##')                                              ³
+15 TRANS(M->SUBTOTAL,'#######.##')                                              ³
+15 TRANS(M->TEXENTO ,'#######.##')                                              ³
+15 TRANS(M->TOTAL   ,'#######.##')                                              ³
+                                                                                ³
+           Proveedor: þ__º þ____________________º |    N§: þ__________________º ³
+         Tipo compra: þº                          | Fecha: þ______º             ³
+Fecha de Vencimiento: þ______º                    +---------------------------- ³
+       Categor¡a IVA: þ__________º                                              ³
+                                                                                ³
+==== ===== == ======================== ========== ========== ======== ==========³
+C¢di Cant. Un Descripci¢n                    Neto    Neto de     Dcto    Importe³
+Prod       ca                            Unitario     Compra                    ³
+=== ===== == ======================== ========== ========== ======== ==========³
+þ__º þ___º þº þ______________________º þ________º þ________º þ______º þ________º³
+==== ===== == ======================== ========== ========== ======== ==========³
+     Subtotal: þ________º  |  Impuesto Interno: þ________º | bultos: þ___º      ³
+Bonif.%:þ___º: þ________º  |       I.V.A.þ___º: þ________º |--------------------³
+     Subtotal: þ________º  |  Conc.No Gravados: þ________º | TOTAL: þ_________º ³
+---------------------------+-------------------------------+--------------------³
+

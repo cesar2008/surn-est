@@ -1,0 +1,32 @@
+12 Cant.Macros.  ³
+15 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+71---------------³
+01 TRANS(I_NH,'###')                                                ³
+02 DTOC(DATE())                                                     ³
+06 DTOC(M->FECHA)                                                   ³
+06 M->TURNO                                                         ³
+13 AX[z,X_CODCONC]                                                  ³
+13 AX[z,X_CONCEPTO]                                                 ³
+13 AX[z,X_DESCRIPC]                                                 ³
+13 TRANS(AX[z,X_INGRESO],"@Z #######.##")                           ³
+13 TRANS(AX[z,X_EGRESO],"@Z #######.##")                            ³
+14 TRANS(aing[XTURNO],"@Z #######.##")                              ³
+14 TRANS(aegr[XTURNO],"@Z #######.##")                              ³
+15 TRANS(aing[XTURNO]-aegr[XTURNO],"@Z #######.##")                 ³
+                                                  HOJA N§ þ_º       ³
+ "ESTACION DE SERVICIO"                              þ______º       ³
+                                                                    ³
+ð###############                                                    ³
+ð# CAJA DIARIA #                                                    ³
+ð# þ______º þº #                                                    ³
+ð###############                                                    ³
+                                                                    ³
+==== ==================== ==================== ========== ==========³
+C¢d  Concepto             Descripci¢n           Rendici¢n     Ventas³
+                                                                    ³
+=== ==================== ==================== ========== ==========³
+þ__º þ__________________º þ__________________º þ________º þ________º³
+TOTAL =                                        þ________º þ________º³
+Diferencia                          þ________º                      ³
+

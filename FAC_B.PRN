@@ -1,0 +1,33 @@
+11 Cant.Macros.  ³
+17 Cant.Lin.Arch.³
+66 L¡n. x Hoja-4.³
+83---------------³
+01 DTOC(M->FECHA)                                                               ³
+03 M->RAZONSOC                                                                  ³
+05 ALLTRIM(M->DOMCOM)+" "+FVECTOR(vlocalid,M->CODLOC)                           ³
+06 FARRAY(acativa,M->CATIVA)                                                    ³
+06 M->CUIT                                                                      ³
+14 STR(AXR[y,FAC_CANTIDAD],4)                                                   ³
+14 AXR[y,FAC_DESCPROD]                                                          ³
+14 TRANS(AXR[y,FAC_PRECBASE], '#######.##')                                     ³
+14 TRANS(AXR[y,FAC_TPRECBASE],'#######.##')                                     ³
+14 TRANS(AXR[y,FAC_IMPORTE],  '#######.##')                                     ³
+17 TRANS(M->TOTAL,    '#######.##')                                             ³
+                                                               Fecha: þ_______º ³
+                                                                                ³
+Raz¢n Social: þ_______________________________________º                         ³
+                                                                                ³
+Domicilio Comercial: þ_____________________________________________________º    ³
+          Categ.IVA:þ_________º                      C.U.I.T.: þ___________º    ³
+                                                                                ³
+                                                                                ³
+                                                                                ³
+=====  =============================== ========== ========== ==========         ³
+Cant.  Descripci¢n                     Precio     Subtotal   Importe            ³
+                                       Unitario                                 ³
+====  =============================== ========== ========== ==========         ³
+ þ__º  þ_____________________________º þ________º þ________º þ________º         ³
+                                                                                ³
+                                                             ==========         ³
+                                              TOTAL . . . . .þ________º         ³
+
