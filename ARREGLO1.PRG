@@ -1,0 +1,45 @@
+//
+// agrega los campos NETOBASE1, ...NETOBASE4
+// agrega el campo FECHALTA
+//
+CLEAR
+lNETOBASE := lFECHALTA := .F.
+
+
+USE PROD
+aaux := DBSTRUCT()
+@0,0 SAY LASTREC()
+
+IF ASCAN(aaux,{|a,i|"NETOBASE"$a[1]}) == 0
+	FOR i=1 TO 4
+		AADD(aaux,{"NETOBASE"+STR(i,1),"N",14,9})
+	NEXT
+  lNETOBASE := .T.
+ENDIF
+IF ASCAN(aaux,{|a,i|"FECHALTA"$a[1]}) == 0
+	AADD(aaux,{"FECHALTA","D",8,0})
+	lFECHALTA := .T.
+ENDIF
+
+
+DBCREATE( "XX", aaux )
+USE XX
+@ 1,0 SAY PADR("AGREGANDO CAMPOS ...",30," ") COLOR "*W/N"
+APPEND FROM PROD FOR VER()
+
+@ 1,0 SAY PADR("REEMPLAZANDO CAMPOS ...",30," ") COLOR "*W/N"
+IF lNETOBASE
+	REPLACE NETOBASE1 WITH NETO1,;
+        	NETOBASE2 WITH NETO2,;
+        	NETOBASE3 WITH NETO3,;
+        	NETOBASE4 WITH NETO4 FOR VER()
+ENDIF
+
+RETURN
+
+**********
+FUNC VER()
+@5,0 SAY RECNO()
+
+RETURN .T.
+

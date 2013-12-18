@@ -1,0 +1,12 @@
+SELECT 1
+use rem alias RE
+COPY STRU TO QQ
+
+SELECT 2
+use rem2 alias RE2 INDEX REM2
+COPY STRU TO QQ2
+
+SELECT 1
+GO TOP
+DO WHILE !EOF()
+

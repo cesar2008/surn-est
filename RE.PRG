@@ -1,0 +1,42 @@
+#include "EST.CH"
+#include "TB.CH"
+#include "EDI.CH"
+#include "SETCURS.CH"
+#include "INKEY.CH"
+
+SELECT 1
+USE REM ALIAS RE
+
+SELECT 2
+ABRIR_BASE( "REM2", "RE2", "RE2->TIPOREM+STR(RE2->NUMFAC)" )
+
+xx:=0
+DBSELECTAREA("RE")
+GO TOP
+DBSELECTAREA("RE2")
+DO WHILE !RE->(EOF())
+ 	xcant := 0
+	xPRECUNIT := 0
+	SEEK RE->TIPOREM + STR(RE->NUMFAC)
+	DO WHILE RE2->TIPOREM == RE->TIPOREM .AND. RE2->NUMFAC == RE->NUMFAC
+     ++xcant
+		xPRECUNIT += FIELD->PRECUNIT
+		SKIP
+	ENDDO
+  if xcant == 0
+     ++xx
+     ? re->tiporem, re->NUMFAC, XX
+     YY=0
+		TR= IF( RE->TIPOREM=="A","B","A" )
+		SEEK TR + STR(RE->NUMFAC)
+		DO WHILE FOUND()
+     	RE2->TIPOREM := RE->TIPOREM
+			SEEK TR + STR(RE->NUMFAC)
+		ENDDO
+     IF YY # 0
+     	?? YY
+     ENDIF
+  endif
+	SKIP 1 ALIAS RE
+ENDDO
+

@@ -1,0 +1,54 @@
+#include "EST.CH"
+#include "EDI.CH"
+#include "SETCURS.CH"
+#include "INKEY.CH"
+
+LOCAL aux := SPACE(5)
+aux := INGRVAL( 10, 20, "CLAVE:", aux, "XXXXX", "")
+IF aux # "RASEC"
+	RETURN
+ENDIF
+
+DO WHILE .T.
+	op = MENUFLASH( 10, 30, 1, .F., "", "PONER LA FECHA DE COMPRAS A COMPRAS2", "RECALCULAR PRECIOS FACTURAS Y PLANILLAS" )
+
+	IF op == 1
+		MENSAJE( 0, 0, 0, .F., " AGUARDE . . . " )
+		FBASES({"COMPRAS","COMPRAS2"},.F.)
+  	SELECT CO2
+     FFLOCK()
+  	GO TOP
+		SELECT CO
+  	DO WHILE !CO2->(EOF())
+  		SEEK STR(CO2->CODPROV)+CO2->NUMFAC
+     	IF FOUND()
+     		CO2->FECHA := CO->FECHA
+     	ENDIF
+     	SKIP 1 ALIAS CO2
+  	ENDDO
+     RECUPAN()
+
+	ELSEIF op == 2
+		MENSAJE( 0, 0, 0, .F., " AGUARDE . . . " )
+		FBASES({"COMPRAS","COMPRAS2"},.F.)
+  	SELECT CO2
+     FFLOCK()
+  	GO TOP
+		SELECT ART
+  	DO WHILE !CO2->(EOF())
+  		SEEK STR(CO2->CODPROD)
+     	IF FOUND()
+*       	CO2->PRECBASE := ART->PRECCOMPRA
+     		CO2->IMPINT   := ART->IMPINT
+     	ENDIF
+     	SKIP 1 ALIAS CO2
+  	ENDDO
+    	RECUPAN()
+
+  ELSEIF LASTKEY() == K_ESC
+  	EXIT
+	ENDIF
+ENDDO
+
+RETURN
+

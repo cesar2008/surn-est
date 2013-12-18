@@ -1,0 +1,16 @@
+CLEAR
+aux := "X"+LEFT(STRTRAN(TIME(),":",""),7)
+
+RENAME PLANT.DBF TO (aux+".DBF")
+RENAME PLANT.DBT TO (aux+".DBT")
+
+USE (aux)
+COPY STRU TO PLANT
+
+USE PLANT
+APPEND FROM (aux)
+CLOSE ALL
+
+FERASE(aux+".dbf")
+FERASE(aux+".dbt")
+
